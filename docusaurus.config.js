@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'DARE-HPMA',
   tagline: 'Data Rescue Services for HPMA',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/myfavicon.ico',
 
   // Set the production url of your site here
   url: 'https://channingwang2018.github.io/',
