@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'DARE-HPMA',
   tagline: 'Data Rescue Services for HPMA',
-  favicon: 'img/myfavicon.ico',
+  favicon: 'img/owl_favicon.ico',
 
   // Set the production url of your site here
   url: 'https://channingwang2018.github.io/',
@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
