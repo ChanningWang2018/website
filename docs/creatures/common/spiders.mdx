@@ -9,9 +9,11 @@ Spiders 🤙🕷️
 
 <!--truncate-->
 
+export const id = 0
+
 import CardBasics from "/src/components/CardInfo/CardPage"
 
-<CardBasics cardKey={0}/>
+<CardBasics cardKey={id}/>
 
 
 ## 描述
@@ -19,31 +21,10 @@ import CardBasics from "/src/components/CardInfo/CardPage"
 
 ## 面板
 
+import {CardStaticTable, CardComplexTable} from "/src/components/CardInfo/CardTable"
 
-| 等级⭐ | 生命值🩸 | 伤害🗡 | 每秒伤害⏱🗡 |
-| ----- | ------- | ----- | ---------- |
-| 1     | 28      | 14    | 6.1        |
-| 2     | 30      | 15    | 6.5        |
-| 3     | 32      | 16    | 7          |
-| 4     | 34      | 17    | 7.4        |
-| 5     | 36      | 18    | 7.8        |
-| 6     | 39      | 19    | 8.3        |
-| 7     | 42      | 20    | 8.7        |
-| 8     | 45      | 21    | 9.1        |
-| 9     | 48      | 23    | 10         |
-| 10    | 51      | 25    | 10.9       |
-| 11    | 55      | 27    | 11.7       |
-| 12    | 59      | 29    | 12.6       |
-| 13    | 63      | 31    | 13.5       |
-| 14    | 67      | 33    | 14.3       |
-| 15    | 72      | 35    | 15.2       |
-| 16    | 77      | 38    | 16.5       |
-| 17    | 82      | 41    | 17.8       |
-| 18    | 88      | 44    | 19.1       |
-| 19    | 94      | 47    | 20.4       |
-| 20    | 101     | 50    | 21.7       |
-| 21    | 108     | 54    | 23.5       | 
-
+<CardStaticTable cardKey={id}/>
+<CardComplexTable cardKey={id}/>
 
 
 | 属性       | 数值 |
