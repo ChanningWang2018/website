@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DARE-HPMA',
+  title: '🧙‍♀️Oh My Dear HPMA🧙‍♂️',
   tagline: 'Data Rescue Services for HPMA',
   favicon: 'img/owl_favicon.ico',
 
@@ -64,7 +64,6 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Data Rescue',
         logo: {
           alt: 'Owl Logo',
           src: 'img/owl.svg',
@@ -74,59 +73,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '卡牌⚔',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: '公告📣', position: 'left'},
+          
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} Owl Project, Inc. Built with Docusaurus.`,
       },
       prism: {
@@ -134,6 +88,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  
+  plugins: [
+    './plugins/my-fetch-plugin'
+  ]
 };
 
 module.exports = config;
