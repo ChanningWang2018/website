@@ -1,0 +1,47 @@
+---
+sidebar_position: 5
+id: howler
+title: 吼叫信
+tags: [spell, common, manacost-4, damage, control]
+---
+
+Howler
+
+<!--truncate-->
+
+export const id = 10
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+向指定位置寄送吼叫信。吼叫信会在2秒后抵达并对区域内的敌方单位造成伤害和恐惧效果。
+
+*被恐惧的的单位，受到的伤害提高45%。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+吼叫信的信封为红色。当收信人打开信封后，四角会开始冒烟，信件内容会以震耳欲聋的声音读出，读完后信会自动燃烧。若不及时打开，吼叫信会爆炸，更糟的是还会把收信人狠狠骂上一顿。
+
+罗恩·韦斯莱二年级时，因为开着会飞的福特安格里亚车穿过大半个伦敦，而收到了来自母亲莫丽的吼叫信。后来韦斯莱魔法把戏坊也曾推出过一种超大声的特制吼叫信。收信人拆信的那一刻几乎都会被它的吼声吓到晕厥。

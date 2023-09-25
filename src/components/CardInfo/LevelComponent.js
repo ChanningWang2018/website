@@ -1,44 +1,27 @@
 import React from 'react';
 import { useContext } from 'react';
 import { observer } from 'mobx-react';
-import LevelStores from './levelStores';
+import levelStores from './levelStores';
 
-const LevelComponent = observer(({initialLevel}) => {
-  const { counter } = useContext(LevelStores);
-
-  if (counter.count < initialLevel) {
+const LevelComponent = observer(() => {
+  const { counter } = useContext(levelStores);
     return (
       <div>
-        <span>等级⭐: {counter.count}    </span>
+        <span>
+          等级⭐: <input type="number" value={counter.count} onChange={e => {
+            const inputValue = Math.trunc(Number(e.target.value))
+            if (inputValue > 0 && inputValue < 22) {
+            counter.set(inputValue)}}} />   
+        </span>
         <button onClick={() => {
-          counter.increase();
-          counter.set(initialLevel)}}>Increase +</button>
-        <span> </span>
+          counter.increase();}}>Increase +</button>
+        <button onClick={() => {
+          counter.decrease();}}>Decrease -</button>
       </div>
-    )
-  } else if (counter.count > initialLevel) {
-    return (
-      <div>
-        <span>等级⭐: {counter.count}    </span>
-        <button onClick={() => counter.increase()}>Increase +</button>
-        <span> </span>
-        <button onClick={() => counter.decrease()}>Decrease -</button>
-      </div>
-    )
-  } else {
-    return (
-      <div>
-        <span>等级⭐: {counter.count}    </span>
-        <button onClick={() => counter.increase()}>Increase +</button>
-        <span> </span>
-      </div>
-    )
-  }
-  
-});
+    )});
 
 const TestComponent = observer(() => {
-    const { counter } = useContext(LevelStores);
+    const { counter } = useContext(levelStores);
   
     return (
       <div>
@@ -48,7 +31,7 @@ const TestComponent = observer(() => {
   });
 
 const GetValue = observer(({initial}) => {
-  const { counter } = useContext(LevelStores);
+  const { counter } = useContext(levelStores);
   let i = initial[1];
   let floatInter;
   let roundedInter = initial[0];
@@ -71,7 +54,7 @@ const GetValue = observer(({initial}) => {
 
 
 const GetDPS = observer(({ initial, secs }) => {
-  const { counter } = useContext(LevelStores);
+  const { counter } = useContext(levelStores);
   let i = initial[1];
   let floatInter;
   let roundedInter = initial[0];
@@ -98,7 +81,7 @@ const GetDPS = observer(({ initial, secs }) => {
 
 
 const MultipliedValue = observer(({ initial, factor }) => {
-  const { counter } = useContext(LevelStores);
+  const { counter } = useContext(levelStores);
   let i = initial[1];
   let floatInter;
   let roundedInter = initial[0];
@@ -122,4 +105,4 @@ const MultipliedValue = observer(({ initial, factor }) => {
 
 });
 
-export {LevelComponent, TestComponent, GetValue, GetDPS, MultipliedValue};
+export default LevelComponent;

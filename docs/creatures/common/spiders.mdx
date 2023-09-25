@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 id: spiders
 title: 小蜘蛛群
 tags: [summon, common, manacost-3, front-row, damage]
@@ -11,7 +11,7 @@ Spiders 🤙🕷️
 
 export const id = 0
 
-import CardBasics from "/src/components/CardInfo/CardPage"
+import CardBasics from "/src/components/CardInfo/CardBasics"
 
 <CardBasics cardKey={id}/>
 
@@ -21,21 +21,20 @@ import CardBasics from "/src/components/CardInfo/CardPage"
 
 ## 面板
 
-import {CardStaticTable, CardComplexTable} from "/src/components/CardInfo/CardTable"
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
 
-<CardStaticTable cardKey={id}/>
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
 <CardComplexTable cardKey={id}/>
 
 
-| 属性       | 数值 |
-| ---------- | ---- |
-| 生命值🩸    |    |
-| 伤害🗡      |    |
-| 攻击间隔🧊 | 2.3s |
-| 每秒伤害⏱🗡 |  |
-| 攻击距离📏  | 6    |
-| 移动速度👟  | 中   |
-| 目标🎯      | 地面 |
+
 
 
 ## 故事

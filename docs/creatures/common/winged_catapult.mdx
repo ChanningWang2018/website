@@ -1,0 +1,50 @@
+---
+sidebar_position: 3
+id: winged_catapult
+title: 带翼弹弓
+tags: [summon, common, manacost-5, damage, back-row]
+
+---
+
+带翼弹弓
+
+<!--truncate-->
+
+export const id = 12
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤带翼弹弓，带翼弹弓会消耗**自身生命值**，向**召唤巫师**所在方向弹出**5**次冲击，对命中的首个敌方单位造成伤害。
+
+*带翼弹弓的任意冲击命中目标时，剩余的冲击次数会自动锁定该目标。
+
+*若带翼弹弓的任意冲击成功命中目标，则会为召唤巫师恢复1张移动卡。
+
+
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+## 故事
+
+与麻瓜世界的弹弓不同，带翼弹弓长着一双小小的翅膀，能够飞行。尽管外观并不华丽，但对一些巫师来说，它仍是一种相当有趣的玩具。
+
+1996年，哈利·波特在有求必应屋那积成小山的收藏物中，看到了带翼弹弓的身影。其中几个仍在扇动着翅膀，似乎还拥有生命力。不过，这些带翼弹弓究竟属于谁，却已经无从得知了。

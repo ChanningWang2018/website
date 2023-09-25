@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 id: oppugno
 title: 万弹齐发
 tags: [spell, common, manacost-2, damage]
@@ -10,9 +10,11 @@ Oppugno 🤙🕷️
 
 <!--truncate-->
 
-import CardBasics from "/src/components/CardInfo/CardPage"
+export const id = 8
 
-<CardBasics cardKey={8}/>
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
 
 
 ## 描述
@@ -21,12 +23,17 @@ import CardBasics from "/src/components/CardInfo/CardPage"
 
 ## 面板
 
-| 属性       | 数值 |
-| ---------- | ---- |
-| 伤害🗡      |  />   |
-| 总伤害⚔ | /> |
-| 追踪范围📐  | 50    |
-| 目标🎯      | 地面 空中 |
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
 
 
 

@@ -1,10 +1,10 @@
 import React from 'react';
 
 const rarityColor ={
-    "common": "#656669",
-    "rare": "#4e9fdd",
-    "epic": "#b82feb",
-    "legendary": "#dfc416"
+    "普通": "#656669",
+    "稀有": "#4e9fdd",
+    "史诗": "#b82feb",
+    "传说": "#dfc416"
 }
 
 export function Highlight({children, color}) {

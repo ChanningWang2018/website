@@ -1,6 +1,7 @@
 import React, { memo, useEffect, useState } from 'react';
 import { usePluginData } from '@docusaurus/useGlobalData';
-import {Highlight} from './fontStyle'
+import {Highlight} from './FontStyle'
+
 
 const CardBasics = memo(({cardKey}) => {
   const [data, setData] = useState(null);
