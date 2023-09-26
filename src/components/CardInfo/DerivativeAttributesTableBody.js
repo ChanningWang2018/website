@@ -19,7 +19,7 @@ const DerivativeAttributesTableBody = ({data}) => {
                     <td colSpan="2"><strong>{cnName}</strong></td>
                   </tr>
                 </tbody>
-                <DynamicAttributesTableBody data_tuple={dynamicData} level={counter.count - 1}/>
+                <DynamicAttributesTableBody data_tuple={dynamicData} level={counter.count}/>
                 <StaticAttributesTableBody data_tuple={staticData}/>
               </div> 
             )

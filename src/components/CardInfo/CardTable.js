@@ -131,7 +131,7 @@ const CardDynamicTable = observer(({cardKey}) => {
         </thead>
   
 
-        <DynamicAttributesTableBody data_tuple={dynamicData} level={counter.count - 1}/>
+        <DynamicAttributesTableBody data_tuple={dynamicData} level={counter.count}/>
         <StaticAttributesTableBody data_tuple={staticData}/>
 
       </table>
