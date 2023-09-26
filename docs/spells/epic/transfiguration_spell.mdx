@@ -1,0 +1,53 @@
+---
+sidebar_position: 13
+id: transfiguration_spell
+title: 变形咒
+tags: [spell, epic, manacost-2, control]
+---
+
+Transfiguration Spell
+
+<!--truncate-->
+
+export const id = 62
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放变形咒，被命中单位在变形咒持续期间，所受伤害会增加；受到伤害后，变形效果解除。
+
+*变形咒命中敌方单位后，会在附近单位间随机弹射，最多弹射**3**次。
+
+*被命中的敌方**非玩家**单位被变形后，将无法进行攻击，持续**3.5**秒。
+
+*敌方玩家单位被命中后不会变形，但移动速度降低**50%**，且控制时间减少40%。
+
+*单位**变形**期间受到**玩家**单位的**普攻**时，不受增伤效果影响，且不会因此解除变形。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+变形咒可以让事物的形态发生改变，甚至可以使其变得和原来截然不同。这种咒语有许多变体，有些可以被使用在非生物体上，有些则可以被使用在活物上。
+
+麦格教授曾向一年级新生们当堂演示，如何用变形咒把一张书桌变成一只猪，再把它变回原样。后来，她给了学生们布置了一个课堂任务，快要下课的时候，只有赫敏·格兰杰近乎完成这项任务。

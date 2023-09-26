@@ -1,0 +1,49 @@
+---
+sidebar_position: 10
+id: wizard_chess_pieces
+title: 棋子士兵
+tags: [summon, common, manacost-5, front-row]
+---
+
+Wizard Chess Pieces 🗿♕
+
+<!--truncate-->
+
+export const id = 13
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+召唤棋子·士兵，棋子·士兵攻击时**嘲讽**周围敌方单位。棋子·士兵退场后，留下**2**个石块。
+
+石块将会变为棋子·皇后或强化棋子·皇后。
+
+棋子·皇后的普通攻击会造成**双重范围伤害**；棋子·皇后被石块强化时，会**聚拢**附近的敌方单位。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+尽管看上去巫师棋与麻瓜世界的国际象棋极其相似，但巫师棋的棋子都是活物。巫师可以直接以说话的方式指挥棋子。不过，巫师棋子并非总是百依百顺，它们拥有自己的意识，有时甚至会质疑巫师的指令。
+
+在霍格沃茨就读的第一学年，哈利·波特借用同学西莫的巫师棋与罗恩对战。作为一名初学者，他的棋艺没有得到这副棋子的认可。因此，棋子们总是东一句西一句地对他指手画脚，这让哈利感到十分烦恼。
+

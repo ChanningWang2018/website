@@ -1,47 +1,40 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# Tutorial Intro
+# 写在前面
 
-Let's discover **Docusaurus in less than 5 minutes**.
+“如果你在前面写了些东西，那么，这些东西就被写在了前面✒”
 
-## Getting Started
+“感谢GPT4，没有你我都不知道怎么应对zen的这坨💩”
 
-Get started by **creating a new site**.
+“我最常用的prompt：模仿这个格式写json，接下来我会给你数据：”
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+“关于顺序，思考了很久，如何决定顺序，最后决定以稀有度
 
-### What you'll need
+## Tips
+4级万弹齐发的伤害与8级小蜘蛛群的伤害均为21；5级万弹齐发的伤害为22，9级小蜘蛛的伤害为23。
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+18级毒液的伤害为37，19级毒液的伤害为39。
 
-## Generate a new site
+16级毒液的第1段伤害为31，后续依次为34，37，40，43，**47**， 50，53，56，59，62，65，68，71，共计14段伤害，总伤害为716；
+17级毒液的第1段伤害为33，后续依次为36，**40**，43，46， **50**，53，56，59，**63**，66，69，**73**，76，共计14段伤害，总伤害为763。
+18级的毒液总伤害比17级高49，19级毒液总伤害仅比18级高43，20级毒液总伤害比19级高69。
 
-Generate a new Docusaurus site using the **classic template**.
+肿胀药水的持续时间每级增长0.2秒，其增益效果的持续时间则始终为9秒。
 
-The classic template will automatically be added to your project after you run the command:
+白鲜香精的后续治疗随等级提高而增长的量是非线性的。
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+吼叫信显示的伤害低于实际，因为实际场景中需计算45%的增伤效果。
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+带翼弹弓每次攻击会有5段伤害，前两段伤害为显示的伤害值，后三段伤害为卡面伤害值的1.4倍。总伤害为4次攻击，共计20段伤害之和。
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+带翼弹弓的10级之后，偶数级伤害增幅大于奇数级，疑似致敬小米。
 
-## Start your site
+犀角兽18级技能伤害为189，19级技能伤害为203，而若按7%的幅度增长并四舍五入，结果应为202。
 
-Run the development server:
+八眼蜘蛛巢穴的衍生生物“剧毒蜘蛛”的dps具体含义未知。
 
-```bash
-cd my-website
-npm run start
-```
+雪人飞来的护盾值与滑行距离正相关。
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+雷鸟的移动速度在游戏的描述中是“慢”，但实际情况更偏向于“无法移动”。

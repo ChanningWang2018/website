@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DARE-HPMA',
+  title: '🧙‍♀️Oh My Dear HPMA🧙‍♂️',
   tagline: 'Data Rescue Services for HPMA',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/owl_favicon.ico',
 
   // Set the production url of your site here
   url: 'https://channingwang2018.github.io/',
@@ -29,8 +29,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -65,76 +65,34 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Owl Logo',
+          src: 'img/owl.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '卡牌⚔',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: '公告📣', position: 'left'},
+          
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Owl Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+  
+  plugins: [
+    './plugins/my-fetch-plugin'
+  ]
 };
 
 module.exports = config;

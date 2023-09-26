@@ -1,0 +1,53 @@
+---
+sidebar_position: 3
+id: crucio
+title: 摧心咒
+tags: [spell, dark, manacost-5, damage, control]
+---
+
+Crucio
+
+<!--truncate-->
+
+export const id = 78
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放咒语，对指定敌方单位造成多段伤害和持续**眩晕**。
+
+✧咒语作用于玩家单位时，伤害降为50%，且该单位不会受到眩晕影响。
+
+✧施法期间，每段后续伤害，将在前段伤害上再增加相当于初始伤害100%的额外伤害，最多叠加3次。
+
+✧受到过摧心咒伤害的单位，再次被摧心咒作用时，所受伤害额外提升35%，最多叠加4次。
+
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+摧心咒和阿瓦达咒、夺魂咒被并称为三大不可饶恕咒。它会让目标感到剧烈的疼痛，若想成功使用摧心咒，施咒者必须带着强烈的欲望去引起被施咒对象的痛苦，并从他们的痛苦中获得快乐。
+
+在黑魔法防御术课上，哈利曾亲眼见到由小巴蒂·克劳奇伪装成的穆迪教授当着纳威·隆巴顿的面，对一只昆虫施了这个咒语。而纳威的父母，正是因为摧心咒，而不得不在圣芒戈的医院里度过余生。
+

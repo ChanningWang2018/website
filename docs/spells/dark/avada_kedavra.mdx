@@ -1,0 +1,49 @@
+---
+sidebar_position: 1
+id: avada_kedavra
+title: 阿瓦达
+tags: [spell, dark, manacost-6, damage]
+---
+
+Avada Kedavra
+
+<!--truncate-->
+
+export const id = 77
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放咒语，对第一个命中的敌方单位造成伤害。
+
+✧该咒语每击败一个敌方单位，伤害提高25%。
+
+✧击败4个敌方单位之后，该咒语效果变为直接击败命中的敌方单位。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+阿瓦达咒属于三大不可饶恕咒之首。施咒时，魔杖会发出一道耀眼的绿光，中咒者会即刻身亡，且毫无痕迹。此魔咒一旦对人类使用，施咒者将会被判处阿兹卡班终身监禁。
+
+16岁的汤姆·里德尔偷走了他舅舅的魔杖，并将阿瓦达用在了他的麻瓜父亲和祖父母身上。之后汤姆修改了舅舅的记忆，使他相信自己才是凶手。这是汤姆第一次使用该咒语，而且绝不会是最后一次。

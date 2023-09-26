@@ -1,0 +1,45 @@
+---
+sidebar_position: 3
+id: erumpent
+title: 犀角兽
+tags: [summon, common, manacost-5, control, front-row]
+---
+
+Erumpent
+
+<!--truncate-->
+
+export const id = 16
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+## 描述
+
+召唤**1**只犀角兽，快速冲向**最近**的敌方单位（优先选择**玩家**单位）。撞到敌人时爆炸，造成**范围**伤害及1秒**眩晕**。
+
+*爆炸的范围伤害**同样**作用于犀角兽自身。
+
+*爆炸伤害会随**时间**推移越来越**高**，若**6**秒内没有撞击敌方单位，犀角兽会直接爆炸。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+## 故事
+
+犀角兽是一种灰色的大型非洲野兽，力大无穷，本领极高。它厚实的毛皮能挡下大部分咒语，鼻子上长有一根巨大的尖角，尾巴长长的像根绳子。
+
+犀角兽只在被激怒时才会发起冲锋，而这种攻击通常都是毁灭性的：它的角可以刺穿皮肤和金属，其中的液体注入任何物体都会引起爆炸。
+
