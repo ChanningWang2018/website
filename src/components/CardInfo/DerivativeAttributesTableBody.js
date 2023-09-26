@@ -9,7 +9,7 @@ const DerivativeAttributesTableBody = ({data}) => {
     return (
         data.map((item) => {
             const cnName = item.alias
-            const staticData = Object.entries(item.static_attributes)
+            const staticData = item.static_attributes
             const dynamicData = item.growable_attributes
     
             return (
@@ -20,7 +20,7 @@ const DerivativeAttributesTableBody = ({data}) => {
                   </tr>
                 </tbody>
                 <DynamicAttributesTableBody data_tuple={dynamicData} level={counter.count}/>
-                <StaticAttributesTableBody data_tuple={staticData}/>
+                <StaticAttributesTableBody data_object={staticData}/>
               </div> 
             )
             })

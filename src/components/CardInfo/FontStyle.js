@@ -4,7 +4,9 @@ const rarityColor ={
     "普通": "#656669",
     "稀有": "#4e9fdd",
     "史诗": "#b82feb",
-    "传说": "#dfc416"
+    "传说": "#ffbe4d",
+    "光辉": "#ffa200",
+    "禁忌": "#205d3b"
 }
 
 export function Highlight({children, color}) {

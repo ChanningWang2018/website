@@ -50,10 +50,10 @@ const CardComplexTable = memo(({cardKey}) => {
     }
   }, [pluginData, cardKey]);
 
-  if (!data) {
+  if (!(data && data.growable_attributes))  {
     return null; // or some loading state
   }
-
+  
   const complexData = data.growable_attributes
   const keys = Object.keys(complexData[0])
 
@@ -103,21 +103,23 @@ const CardDynamicTable = observer(({cardKey}) => {
   }
 
   const cnName = data.alias
-  const staticData = Object.entries(data.static_attributes)
+  const staticData = data.static_attributes
   const dynamicData = data.growable_attributes
   const derivativeData = data.derivative_attributes
   
   if (derivativeData) {
     return (  
       <table>
-        <thead style={{textAlign: 'center'}}>
+        {() => {return ((dynamicData || staticData) ? (
+          <thead style={{textAlign: 'center'}}>
           <tr>
-            <td colSpan="2"><strong>{cnName}</strong></td>
+            <td colSpan="2"><strong>{(dynamicData || staticData) ? cnName : null}</strong></td>
           </tr>
         </thead>
+        ) : null)}}
   
         <DynamicAttributesTableBody data_tuple={dynamicData} level={counter.count}/>
-        <StaticAttributesTableBody data_tuple={staticData}/>
+        <StaticAttributesTableBody data_object={staticData}/>
         <DerivativeAttributesTableBody data={derivativeData}/>
       </table>
     );
@@ -132,7 +134,7 @@ const CardDynamicTable = observer(({cardKey}) => {
   
 
         <DynamicAttributesTableBody data_tuple={dynamicData} level={counter.count}/>
-        <StaticAttributesTableBody data_tuple={staticData}/>
+        <StaticAttributesTableBody data_object={staticData}/>
 
       </table>
     );    

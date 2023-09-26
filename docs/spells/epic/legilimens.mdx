@@ -1,0 +1,51 @@
+---
+sidebar_position: 8
+id: legilimens
+title: 摄神取念
+tags: [spell, epic, manacost-4]
+---
+
+Legilimens
+
+<!--truncate-->
+
+export const id = 56
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放摄神取念咒，随机复制敌方玩家单位**当前持有**的**1**张手牌，将其置入自己的下1张牌。
+
+*如果你的视野中不存在敌方玩家单位，则施放摄神取念后，获得1张卡牌“脑袋空空”。该卡牌不消耗魔力值，且为你恢复2点魔力值。
+
+*复制的卡牌等级与“摄神取念”卡牌等级相同，魔力值消耗减少4点。 
+
+*复制的卡牌只能使用1次，使用完毕后，不会回到你的手牌中。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+摄神取念是一种可以入侵大脑，读取他人记忆或想法的魔咒。施咒者需要能直视对方。和读心术不同的是，摄神取念需要施咒者能够准确地分析所看到的一切，这并非常人所能做到的。
+
+1995-1996学年，斯内普在帮助哈利·波特练习大脑封闭术时使用了摄神取念，可惜哈利并未成功学会大脑封闭术。

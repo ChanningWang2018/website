@@ -1,0 +1,51 @@
+---
+sidebar_position: 12
+id: time_turner
+title: 时间转换器
+tags: [spell, epic, manacost-5, damage]
+---
+
+Time Turner
+
+<!--truncate-->
+
+export const id = 60
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+未来的你使用时间转换器与你一起战斗，与你有相同**增益**效果并跟随你一起移动。
+
+*未来的你每次普通攻击都会消耗生命值。
+
+*在**决斗**俱乐部玩法中，未来的你会造成你50%攻击力的伤害，其余玩法中，攻击力与你相同。
+
+*除去**无法**被摄神取念，在战斗中，未来的你被视为**玩家**单位。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+时间转换器是一种用来进行时光旅行的魔法设备，看上去像是挂在项链上的沙漏。使用者每转动一次，时间就会回溯一小时。通常，使用者有5小时的回溯限制，不然可能会发生严重的时间事故。
+
+1993年，三年级的赫敏得到批准可以使用时间转换器，以便参加更多的课程。最终也因为时间转换器的存在，赫敏和哈利得以回到过去，成功救出了命悬一线的小天狼星和鹰头马身有翼兽巴克比克。

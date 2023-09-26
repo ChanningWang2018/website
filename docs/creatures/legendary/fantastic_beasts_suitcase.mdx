@@ -1,0 +1,58 @@
+---
+sidebar_position: 2
+id: fantastic_beasts_suitcase
+title: 神奇动物手提箱
+tags: [summon, legendary, manacost-4, damage]
+---
+
+Fantastic Beasts Suitcase
+
+<!--truncate-->
+
+export const id = 69
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤神奇动物手提箱，它会吸引一定范围内**你召唤**的单位进入其中。
+
+✧手提箱拥有容纳值，它会根据吸收单位的最大生命值而增加。同时手提箱会周期性消耗自
+
+身生命值来增加容纳值。
+
+✧当手提箱的容纳值达到上限或它被击退离场时，会召唤1只鹰头马身有翼兽为你作战。（每只手提箱最多召唤1只）
+
+✧鹰头马身有翼兽攻击时会造成扇形范围伤害，且其生命值、攻击力、射程、伤害范围和体型会基于召唤时的容纳值以及吸收的单位数量而提升。（这些提升不会超过对应属性的上限）
+
+✧若容纳值达到75%或以上时，鹰头马身有翼兽会额外获得一个护盾，护盾值为自身最大生命值的57%。该护盾存在时，它的攻击速度会额外提高30%，且免疫昏迷、减速、击退等控制效果。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+受热爱饲养鹰头马身有翼兽的母亲启发，幼年的纽特便萌生了对神奇动物的兴趣。他的魔法手提箱被施了无痕伸展咒，便于安放照料大量的神奇动物。外部的开关提供了双保险，开启后可以隐藏这个看似普通的棕色皮箱的内部情况，从而避免被麻瓜窥探。
+
+在纽特的悉心照料下，动物们在手提箱中有了安全的栖身之地，能够从伤痛和虐待中恢复过来。从嗅嗅、护树罗锅再到雷鸟和鹰头马身有翼兽，纽特对所有的神奇生物都一视同仁，总是尽自己最大的力量保护和关爱它们。
+
+
+

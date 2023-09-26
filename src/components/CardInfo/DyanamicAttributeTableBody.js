@@ -10,7 +10,6 @@ const DynamicAttributesTableBody = ({data_tuple, level}) => {
             {
               data.map(([k, v]) => {
                 if (k !== "等级") {
-                  console.log(v)
                   return (
                   <tr>
                     <td><strong>{k}</strong></td>
