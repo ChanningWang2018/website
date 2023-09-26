@@ -1,68 +1,39 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+id: matagot
+title: 灵猫
+tags: [summon, common, manacost-4, damage, front-row]
 ---
 
 Matagot 🐱->🐱🐱
 
 <!--truncate-->
 
-export const panel = {
-    level: 3,
-    hp: 127,
-    damage: 28,
-    cooldown: 1.6
-}
+export const id = 19
 
+import CardBasics from "/src/components/CardInfo/CardBasics"
 
-魔力消耗💎：4
-
-标签：前排 输出
-
-稀有度：稀有
-
-种类：召唤卡
-
+<CardBasics cardKey={id}/>
 
 ## 描述
+
 召唤**1**只行动迅捷的灵猫，灵猫生命值下降至**50%**时**分裂**成**2**只，最多分裂**2**次。
 
 ✧若受到的单次攻击大于灵猫当前生命值，灵猫将被击败且不会再次分裂。
 
 ## 面板
 
-| 等级⭐ | 生命值🩸 | 伤害🗡 | 每秒伤害⏱🗡 |
-| ----- | ------- | ----- | ---------- |
-| 3     | 127     | 28    | 17.5       |
-| 4     | 137     | 30    | 18.8       |
-| 5     | 146     | 18    | 7.8        |
-| 6     | 156     | 19    | 8.3        |
-| 7     | 167     | 20    | 8.7        |
-| 8     | 179     | 21    | 9.1        |
-| 9     | 192     | 23    | 10         |
-| 10    | 205     | 25    | 10.9       |
-| 11    | 219     | 27    | 11.7       |
-| 12    | 234     | 29    | 12.6       |
-| 13    | 251     | 31    | 13.5       |
-| 14    | 269     | 59    | 36.9       |
-| 15    | 287     | 63    | 39.4       |
-| 16    | 307     | 67    | 41.9       |
-| 17    | 329     | 72    | 45         |
-| 18    | 352     | 77    | 48.1       |
-| 19    | 377     | 82    | 51.3       |
-| 20    | 403     | 88    | 55         |
-| 21    | 431     | 94    | 58.8       |
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
 
-| 属性     | 数值 |
-| ---------- | ---- |
-| 生命值🩸    |  />   |
-| 伤害🗡      |  />   |
-| 攻击间隔🧊 | 1.6s |
-| 每秒伤害⏱🗡 |  /> |
-| 攻击距离📏  | 10    |
-| 移动速度👟  | 极快   |
-| 目标🎯      | 地面 |
+<LevelComponent/>
 
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
 
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
 
 ## 故事
 
