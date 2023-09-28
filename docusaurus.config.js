@@ -81,10 +81,12 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Owl Project, Inc. Built with Docusaurus.`,
+        copyright: `
+        Oh-My-Dear-HPMA is not endorsed by or affiliated with NetEase Games or Warner Bros. Games.${'\n'}
+        Copyright © ${new Date().getFullYear()} Bourdieu`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme, // 浅色模式为lightCodeTheme
         darkTheme: darkCodeTheme,
       },
     }),
