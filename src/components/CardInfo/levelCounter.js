@@ -4,7 +4,7 @@ const high_boundary = 21
 const low_boundary = 1
 
 class LevelCounter {
-  count = 9;
+  count = 12;
   variation = 0;
 
   constructor() {

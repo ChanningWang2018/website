@@ -8,9 +8,9 @@ const StaticAttributesTableBody = ({data_object}) => {
         return (
             <tbody>
               {data_array.map(([k, v]) => {return (
-                <tr>
-                  <td>{k}</td>
-                  <td>{v !== 999 ? v : "无限"}</td>
+                <tr key={k}>
+                  <td key="attr">{k}</td>
+                  <td key="value">{v !== 999 ? v : "无限"}</td>
                 </tr>            
               )})}
             </tbody>

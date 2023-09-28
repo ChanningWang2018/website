@@ -64,15 +64,15 @@ const CardComplexTable = memo(({cardKey}) => {
           <tr>
             {keys.map(k => {
               return (
-                <td><strong>{k}</strong></td>
+                <td key={k}><strong>{k}</strong></td>
               )})}
           </tr>
         </thead>
         <tbody>
           {complexData.map((kv) => {return (
-            <tr>
+            <tr key={kv}>
               {Object.values(kv).map(v => {return (
-                <td>
+                <td key={v}>
                   {v !== 0 ? (Array.isArray(v) ? JSON.stringify(v) : v)  : "Unknown"}
                 </td>
               )
