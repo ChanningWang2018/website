@@ -73,7 +73,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '卡牌⚔',
+            label: '文档⚔',
           },
           {to: '/blog', label: '公告📣', position: 'left'},
           

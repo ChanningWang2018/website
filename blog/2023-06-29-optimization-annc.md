@@ -1,6 +1,6 @@
 ---
-slug: hpma230629-optimization-annc
-title: MA230629 Opt Annc
+slug: 230629-optimization-annc
+title: 2023年6月29日礼盒购买方式调整预告
 tags: [hpma, optimization, trailer]
 ---
 

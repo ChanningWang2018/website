@@ -1,0 +1,56 @@
+---
+sidebar_position: 4
+id: expelliarmus
+title: 除你武器
+tags: [spell, epic, manacost-3, damage, control]
+---
+
+Expelliarmus 🚫🗡
+
+<!--truncate-->
+
+export const id = 48
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+对命中的敌方单位造成伤害和缴械效果，对命中的首个敌方单位造成满额伤害，对其余敌方单位减少50%伤害。玩家单位被缴械时间衰减40%。
+
+*被缴械的玩家暂时无法施放魔咒。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+这是一个可以使对方魔杖脱离手心的咒语，威力大小因施咒者魔法能力的高低而异，巫师决斗时常使用该咒语让对手失去魔杖。
+
+哈利·波特最初在二年级的决斗俱乐部接触到此咒语（魔药课教授斯内普用此咒除掉洛哈特的魔杖）。 哈利·波特用此魔咒赢了伏地魔，发现了自己和伏地魔魔杖是同源杖芯，并逼迫伏地魔的魔杖发出闪回咒（伏地魔从未了解此能力）。 十分有用的咒语，哈利最经常用的咒语之一，最终决战中哈利用它打败了使用阿瓦达咒的伏地魔，将伏地魔最终打败。
+
+
+## log
+
+[2023-8-22](/blog/230822-update-annc#adjustment)调整：魔咒伤害的伤害值降低同时修改为穿透伤害，对命中的首个敌方单位造成满额伤害，对其余敌方单位造成半额伤害。
+
+[2023-6-27](/blog/230627-update-annc#adjustment)调整：伤害增加14%。
+
+[2023-6-1](/blog/230601-update-annc#adjustment)去除机制中“随机两张手牌将被打回牌库中”的效果。

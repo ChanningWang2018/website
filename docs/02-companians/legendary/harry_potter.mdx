@@ -1,0 +1,53 @@
+---
+sidebar_position: 1
+id: harry_potter
+title: 哈利•波特
+tags: [companian, legendary, heal, control, bonus]
+---
+
+Harry Potter
+
+<!--truncate-->
+
+export const id = 91
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤哈利释放呼神护卫，持续击退范围内敌方单位。每次击退将消耗哈利一定数量生命值。
+
+✧玩家首次受到致命伤害时，若哈利在场，他将保护玩家并使其处于短暂的无敌状态。哈利将在保护玩家后退场，同时按照在场时间为玩家恢复一定生命值。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+哈利·波特，现代最有名的男巫，巫师们口中“大难不死的男孩”，在与伏地魔的对抗中，对最终胜利起到了至关重要的作用。对当下就读于霍格沃茨的众多少年巫师来说，哈利是非常值得尊敬的存在。
+
+因惧怕“一个即将诞生的男孩将会拥有击败黑魔头伏地魔的力量”的预言，伏地魔用阿瓦达咒对准了还是婴儿的哈利，而哈利的父母在试图保护哈利的过程中双双遇害。母亲莉莉牺牲自己保护了哈利，哈利额头上也留下了闪电伤疤。
+
+
+## log
+
+[2023-9-19](/blog/230914-update-annc)
+修改了伙伴卡“哈利·波特”的机制。修改后：哈利入场时释放呼神护卫，持续击退范围内敌方单位。每次击退将消耗哈利一定数量生命值。

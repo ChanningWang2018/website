@@ -1,0 +1,52 @@
+---
+sidebar_position: 2
+id: orb_of_water
+title: 水牢
+tags: [spell, legendary, manacost-6, damage, control]
+---
+
+Orb of Water
+
+<!--truncate-->
+
+export const id = 75
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放水牢，水牢将卷入范围内所有敌方地方单位并对其持续造成伤害。施法结束时，水牢爆炸造成高额伤害。
+
+✧水牢中的玩家单位无法移动，非巫师单位将被眩晕。
+
+✧水牢可以被控制技能打断。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+## 故事
+
+水牢会让目标被大量的水所包围、吞没，它还能使目标在旋转水球的作用下脱离地面。使用水牢必须格外小心，因为它有可能会导致目标溺毙。
+
+哈利五年级的时候，邓布利多教授曾在魔法部将伏地魔困在水牢中。伏地魔最终挣脱了水牢，却因为法力悬殊而被迫逃跑。
+
+## log
+
+[2023-7-14](/blog/230714-fix-annc#fix)修复了魔咒“水牢”最终段伤害错误的问题。
+

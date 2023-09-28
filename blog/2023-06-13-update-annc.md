@@ -1,6 +1,6 @@
 ---
-slug: hpma230613-update-annc
-title: MA230613 Update Annc
+slug: 230613-update-annc
+title: 2023年6月13日更新公告
 tags: [hpma, update, fix, optimization, downtime]
 ---
 
@@ -12,9 +12,9 @@ tags: [hpma, update, fix, optimization, downtime]
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。
 
-重要更新
+## 重要更新
 
-幸运轮盘全新开启
+### 幸运轮盘全新开启
 
 活动时间：6月13日维护后 - 6月27日13:59
 
@@ -30,11 +30,11 @@ tags: [hpma, update, fix, optimization, downtime]
 
 调整：将“神奇动物空间”家具“嗅嗅草窝”与“动物食槽”调整为消耗金币制作。
 
-体验优化
+## 体验优化
 
 优化禁林团队探索结算界面的显示效果，减少了标题占比，信息展示更加清晰了。
 
-问题修正
+## <span id="fix">问题修正</span>
 
 1、修复了处于段位魔咒等级限制下时，贝拉、卢娜和纽特的回响产生的衍生魔咒等级错误的问题。
 
