@@ -1,8 +1,12 @@
 ---
 slug: 230329-update-annc
 title: 2023年3月29日更新公告
-tags: [hpma, update, fix, optimization, downtime]
+tags: [hpma, update, optimization, downtime]
 ---
+
+2023年3月29日正式服更新公告
+
+<!--truncate-->
 
 为了给大家带来更好的游戏体验，服务器将于3月29日(周三)早上07:00-09:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
@@ -98,7 +102,7 @@ tags: [hpma, update, fix, optimization, downtime]
 
 调整：“决斗俱乐部”中，“呼神护卫”对时间转换器的伤害增益也将受到时间转换器造成伤害衰减的影响。
 
-“染发灵”发型更新
+### “染发灵”发型更新
 
 新增开放染色发型：“男-春燕之翼”及“女-巢中燕鸣”、“男-雄狮之鬃”及“女-黑色尼罗”。
 
@@ -106,7 +110,7 @@ tags: [hpma, update, fix, optimization, downtime]
 
 “站姿”功能上线，巫师可通过在时装界面使用该功能，替换当前时装自带的默认站姿。
 
-体验优化
+## 体验优化
 
 1、优化了卡牌皮肤“霹雳爆炸·爆裂逃亡”的爆炸表现。
 

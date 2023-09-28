@@ -1,7 +1,7 @@
 ---
 slug: 230404-update-annc
 title: 2023年4月4日更新公告
-tags: [hpma, update, fix, optimization, downtime]
+tags: [hpma, update, optimization, downtime]
 ---
 
 2023年4月4日正式服更新公告
