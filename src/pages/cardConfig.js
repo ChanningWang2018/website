@@ -4,7 +4,7 @@ const avatarStyle = {width: "50px", height: "50px", objectFit: "cover"}
 
 const avatarBoxStyle = {display: 'flex', flexDirection: 'column', alignItems: 'center'}
 
-const avatarFrame = {display: 'grid', gridTemplateColumns: 'repeat(10, 1fr)', gap: '10px'}
+const avatarFrame = {display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(50px, 1fr))', gap: '20px'}
 
 const avatarNameStyle = {
     textAlign: 'center', 

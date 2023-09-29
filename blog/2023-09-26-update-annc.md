@@ -5,7 +5,7 @@ tags: [hpma, update, fix, optimization, downtime]
 ---
 
 <details>
-<summary>GPT4摘要摘要</summary>
+<summary>GPT4摘要</summary>
 游戏将举行包括“学院锦标赛”、“共绘风景”、“段位保护”和“禁林觅宝”等多项活动。同时，还将更新赛季故事、开启新活动“月华探宝”，并优化游戏体验。
 </details>
 

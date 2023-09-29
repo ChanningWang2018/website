@@ -4,7 +4,7 @@ title: 2023年9月19日更新公告
 tags: [hpma, update, fix, optimization, downtime]
 ---
 <details>
-<summary>GPT4摘要摘要</summary>
+<summary>GPT4摘要</summary>
 游戏将开启“无名之书”功能，允许玩家重温“1991，魔法石”章节。同时，将开启“闪电救星”赛季限定卡池，提供“哈利·波特”卡牌。此外，还将举行多项活动，包括“学院锦标赛：魁地奇选拔”、“复制成双”、“魔力拟声吟！”和“魔法后日谈：霍格沃茨生活”。
 </details>
 

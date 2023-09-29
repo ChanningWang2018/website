@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { usePluginData } from '@docusaurus/useGlobalData';
-import {avatarDir, avatarStyle, avatarFrame, avatarNameStyle, avatarBoxStyle, docDir, rarityMap, typeMap} from '/src/components/CardInfo/cardConfig'
+import {avatarDir, avatarStyle, avatarFrame, avatarNameStyle, avatarBoxStyle, docDir, rarityMap, typeMap} from './cardConfig'
 import SearchBox from './searchBox';
 
 const FileManagementSystem = () => {
@@ -25,15 +25,26 @@ const FileManagementSystem = () => {
     card["name"].toLowerCase().includes(filter.toLowerCase()) || card.alias.includes(filter.toLowerCase())
   );
 
+  const snorlaxImg = `${avatarDir}/snorlax.jpg`
+
+  const handleImgError = (e) => {
+    if (e.target.src !== snorlaxImg) {
+      e.target.src = snorlaxImg;
+    }
+  };
+
   return (
     <div>
       <SearchBox value={filter} handler={setFilter}/>
 
-      <div style={avatarFrame}>
+      <div className="AvatarFrame" style={avatarFrame}>
         {filteredCards.reverse().map((card) => (
           <div key={card.name} style={avatarBoxStyle}> 
-            <a href={`${docDir}/${typeMap[card.type]}/${rarityMap[card.rarity]}/${card.name}`}><img src={`${avatarDir}/${card.name}.png`} style={avatarStyle}></img></a>        
-            <div style={avatarNameStyle}><a href={`${docDir}/${typeMap[card.type]}/${rarityMap[card.rarity]}/${card.name}`}>{card.alias}.md</a></div>
+            <a href={`${docDir}/${typeMap[card.type]}/${rarityMap[card.rarity]}/${card.name}`}>
+              <img src={`${avatarDir}/${card.name}.png`} style={avatarStyle} onError={handleImgError}  alt={card.name}></img></a>        
+            <div style={avatarNameStyle}>
+              <a href={`${docDir}/${typeMap[card.type]}/${rarityMap[card.rarity]}/${card.name}`}>{card.alias}.md</a>
+            </div>
           </div>
         ))}
       </div>

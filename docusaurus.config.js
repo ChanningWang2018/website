@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '🧙‍♀️Oh My Dear HPMA🧙‍♂️',
+  title: 'Oh My Dear HPMA',
   tagline: 'Data Rescue Services for HPMA',
   favicon: 'img/owl_favicon.ico',
 
@@ -41,15 +41,16 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          postsPerPage: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
