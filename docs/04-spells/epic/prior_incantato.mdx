@@ -1,0 +1,48 @@
+---
+sidebar_position: 9
+id: prior_incantato
+title: 闪回咒
+tags: [spell, epic]
+---
+
+Prior Incantato 🖨
+
+<!--truncate-->
+
+export const id = 57
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+闪回咒在手牌中时，会自动变为你使用的上一张**咒语卡**，且魔力值消耗+1。
+
+*复制的咒语卡等级和闪回咒等级相同。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+## 故事
+
+闪回咒是在两根相同内芯的魔杖互相攻击对方时产生的魔法现象。在争锋对决中，双方巫师的魔杖会被一道闪烁着的金线连在一起。当一方的魔杖败下阵来，它就会重现施法者最近施过的魔咒。
+
+在小汉格顿教堂墓地，哈利和伏地魔对峙的时候，闪回咒连接了他们的魔杖。在闪回咒的作用下，哈利的双亲，和那些被伏地魔夺走生命的人们，纷纷化作灵体，回荡在哈利眼前。
+
+# log
+
+[2023-1-11](/blog/230111-update-annc#fix)修复了部分情况下“闪回咒”复制的满层阿瓦达无法击败敌方单位的问题。

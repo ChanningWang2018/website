@@ -1,0 +1,51 @@
+---
+sidebar_position: 3
+id: hermione_granger
+title: 赫敏•格兰杰 - 昔日重现
+tags: [companian, mythic, back-row, bonus]
+---
+
+Hermione Granger [THROWBACK]
+
+<!--truncate-->
+
+export const id = 98
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤小赫敏上场，为当前玩家所持手牌减少1费，使用后恢复原费。
+
+同时，小赫敏会消耗自身脑力学习敌方魔咒，并将学习后的一次性咒语卡减少**3**费加入我方组合中。1次仅学习1张魔咒，学习次数越多脑力消耗越高。敌方玩家使用**咒语卡**将加快小赫敏的学习速度。
+
+战斗中，经由小赫敏学习成功的咒语卡等级即为昔日重现-赫敏·格兰杰伙伴卡等级。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+## 故事
+
+小赫敏在第一堂魔咒课上就成功施放了漂浮咒，这可让她那些学不会的同学（包括罗恩！）倍感烦闷。小赫敏一针见血地指出罗恩的咒语原来念错了：“是羽加——迪姆勒维——奥——萨！”
+
+多亏了小赫敏的坚持，之后她被巨怪困住时，罗恩成功地施出了漂亮的漂浮咒！他让巨怪的大木棍飘了起来，然后又重重砸下。被砸到头的巨怪应声轰然倒地。
+
+
+## log
+
+[2023-3-1](/blog/230301-update-annc#fix)修复了伙伴卡“昔日重现-赫敏·格兰杰”在学习咒语卡时不会学习“狼牙飞碟”与“驺吾”的问题。

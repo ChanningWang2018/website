@@ -1,0 +1,56 @@
+---
+sidebar_position: 5
+id: zouwu
+title: 驺吾
+tags: [spell, legendary, manacost-7, damage]
+---
+
+Zouwu
+
+<!--truncate-->
+
+export const id = 65
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+取出逗猫棒吸引驺吾。**驺吾**受到逗猫棒的吸引，跃向巫师**选定的区域**，发起进攻。巫师可**通过移动**改变逗猫棒位置，指挥驺吾攻击。
+
+✧在进行**2次攻击**后，驺吾会回到召唤者身边发起**最后1次攻击**，随后离开。
+
+✧每次攻击**命中敌方单位**，都会使**最后1次**攻击的伤害提升**15%**。（最多可提升30%）
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+## 故事
+
+驺吾是稀有的中国生物，速度飞快，力大无穷。 它们可以日行千里，纵身一跃便可穿梭时空。驺吾体型巨大，十分像猫，身上有条纹，尖牙利爪，还有长长的红尾巴。虽然驺吾相当危险，但普通的逗猫玩具和合适的方法可以让它们平静下来。
+
+1927年，纽特·斯卡曼德在巴黎救了一只驺吾，它是从一家虐待动物的巡回马戏团中逃出来的。 将驺吾引诱到手提箱里之后，纽特治愈了这只宏伟的动物并赢得了它的信任。几天后，当纽特身处法国魔法部，被一群灵猫包围时，他从手提箱中放出驺吾，骑着它逃出生天。
+
+## log
+
+[2023-6-27](/blog/230627-update-annc#adjustment)调整：第一二段伤害下调9%，最终第三段伤害上调5%。
+
+[2023-2-1](/blog/230201-update-annc#fix)修复了魔咒“驺吾”在部分情况下伤害存在多次结算的问题。
+
+[2023-1-18](/blog/230118-update-annc#description)取出逗猫棒吸引驺吾。驺吾受到逗猫棒的吸引，跃向巫师选定的区域，发起进攻。巫师可通过移动改变逗猫棒位置，指挥驺吾攻击。在进行2次攻击后，驺吾会回到召唤者身边发起最后1次攻击，随后离开。每次攻击命中敌方单位，都会使最后1次攻击的伤害提升15%。(最多可提升30%)
+

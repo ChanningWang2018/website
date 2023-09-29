@@ -1,0 +1,43 @@
+---
+sidebar_position: 6
+id: matagot
+title: 灵猫
+tags: [summon, common, manacost-4, damage, front-row]
+---
+
+Matagot 🐱->🐱🐱
+
+<!--truncate-->
+
+export const id = 19
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+## 描述
+
+召唤**1**只行动迅捷的灵猫，灵猫生命值下降至**50%**时**分裂**成**2**只，最多分裂**2**次。
+
+✧若受到的单次攻击大于灵猫当前生命值，灵猫将被击败且不会再次分裂。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+## 故事
+
+灵猫是一种魔法生物，它的外型像一只体型庞大的黑猫，有一双蓝色的大眼睛。它一般很温顺，但是被激怒的时候会变得十分凶残。受到魔法攻击时，灵猫会分裂成数只，危险指数也会成倍增长。
+
+法国魔法部的一些部门会用灵猫看门。纽特·斯卡曼德就曾被这些“看门猫”攻击过，当时他正打算潜入魔法部调查克莱登斯·巴瑞波恩的真实身份。直到他逃出魔法部，它们才悻悻退去。
+

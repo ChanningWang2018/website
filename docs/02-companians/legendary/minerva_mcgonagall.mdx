@@ -1,0 +1,60 @@
+---
+sidebar_position: 5
+id: minerva_mcgonagall
+title: 米勒娃•麦格
+tags: [companian, legendary, front-row, damage]
+---
+
+Minerva McGonagall
+
+<!--truncate-->
+
+export const id = 95
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤麦格教授入场，对所有敌方单位施放一次变形咒。
+
+✧随后每使用一张卡牌，麦格教授会对随机敌方单位施放一次变形咒。
+
+✧麦格教授在场时，每当麦格教授成功施出**8**次变形咒，将在下一次施法召唤1个石像士兵。
+
+✧麦格教授施放的变形咒不会在敌方单位之间弹射。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+### 备注
+
+麦格教授登场时施放全场变形咒，变形效果持续10秒，而后续施放的变形咒的效果仅持续5秒。
+
+
+## 故事
+
+变形学教授？也许是未来的霍格沃茨校长！同阿不思·邓布利多一样，米勒娃·麦格曾教授变形学，后来他们都成为了霍格沃茨的校长。麦格教授认为变形术比其他魔法更加优雅，更加优越。
+
+麦格教授敏锐地发现了哈利·波特骑乘扫帚飞行的天赋，不但将他推荐给格兰芬多魁地奇球队队长奥利弗·伍德，还为哈利购买了当时速度最快的飞天扫帚——光轮2000，哈利也成为了一个世纪以来年龄最小的院队队员。
+
+
+## log
+
+[2023-9-5](/blog/230905-update-annc#fix)修复了“伙伴卡-罗恩·韦斯莱”无法免疫“伙伴卡-米勒娃·麦格”施放的变形咒问题。
+
+[2023-3-29](/blog/230329-update-annc#adjustment)调整：麦格的变形咒不再能变形敌方伙伴卡。

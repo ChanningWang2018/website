@@ -1,0 +1,54 @@
+---
+sidebar_position: 1
+id: episkey
+title: 愈合如初
+tags: [spell, rare, manacost-3, heal]
+---
+
+Episkey 💉
+
+<!--truncate-->
+
+export const id = 24
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放愈合咒，持续治疗目标友方单位。
+
+*施法期间受到各种**除禁锢外**的控制效果会**打断**施法。
+
+*对**巫师**的治疗效果只有50%。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+愈合如初是一种修复中小型伤势的疗伤咒，可治疗被打断的鼻子、受伤的脚趾或者裂开的嘴唇等。此咒语不可用来治疗较重的伤势。
+
+哈利·波特六年级开学初，在霍格沃茨特快列车上被马尔福踩断了鼻子。之后卢娜·洛夫古德用愈合如初帮哈利治好了。哈利在鼻子被治愈的过程中感到了一阵短暂的剧痛。
+
+## log
+
+[2023-8-22](/blog/230822-update-annc#adjustment)调整：魔咒带来的治疗频率提高20%，对巫师单位治疗效果下降50%。
+

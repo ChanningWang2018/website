@@ -1,0 +1,48 @@
+---
+sidebar_position: 4
+id: swelling_solution
+title: 肿胀药水
+tags: [spell, common, manacost-2, bonus]
+---
+
+Swelling Solution 🚲->🏍
+
+<!--truncate-->
+
+export const id = 4
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+扔出一瓶肿胀药水，在范围内形成持续一段时间的药水滩。
+
+经过药水的**友方**单位，在一段时间内体型增大，且攻速和移速增加。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+### 备注
+
+肿胀药水的持续时间每级增长0.2秒，其增益效果的持续时间则始终为9秒。
+
+
+## 故事
+
+肿胀药水是一种由蝙蝠脾脏、干荨麻和河豚眼睛制成的魔药，接触到药水的身体部位会发生肿胀。
+
+曾经为了偷拿斯内普私人储藏室中的复方汤剂原料，哈利在魔药学课堂上点燃了烟火，不料烟火落到了格雷戈里·高尔的坩埚中，被药水溅到的同学身上都发生了肿胀，最后不得不找教授领消肿剂。

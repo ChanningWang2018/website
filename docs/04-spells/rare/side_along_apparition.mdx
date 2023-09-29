@@ -1,0 +1,52 @@
+---
+sidebar_position: 1
+id: side_along_apparition
+title: 随从显形
+tags: [spell, rare, manacost-3, move]
+---
+
+Side-along Apparition 
+
+<!--truncate-->
+
+export const id = 33
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放随从显形，一段时间后，你和周围的友方单位一起**传送**到目标地点并**回复**一定生命值。
+
+*期间，你的下一张移动卡变为**幻影移形**。如果传送完成后，该幻影移形未被使用，则会变回移动卡。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+众所周知幻影移形是深受巫师喜爱的一种旅行方式，但并不是人人都能使用幻影移形。随从显形是一种可以同时传送多人的魔法。这种方法可以让具有幻影移形许可的巫师带着无法幻影移形的巫师一同前往目的地，随从者只需要抓住幻影移形人的手臂即可。
+
+狼人芬里尔·格雷波克曾经抓住哈利，带着哈利幻影移形到了马尔福庄园。当哈利、赫敏、罗恩逃离魔法部时，食死徒亚历克斯抓住赫敏的手臂，和她一起传送了出来。
+
+
+## log
+
+[2023-8-22](/blog/230822-update-annc#adjustment)调整：由魔咒效果转变提供的“幻影移形”卡牌必须在“随从显形”效果结束前用掉，否则转变效果失效，“幻影移形”卡牌变回移动卡。同时魔咒提供的治疗量提高了40%。

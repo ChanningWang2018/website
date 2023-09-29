@@ -1,0 +1,56 @@
+---
+sidebar_position: 5
+id: fanged_flyers
+title: 狼牙飞盘
+tags: [spell, epic, manacost-3, damage]
+---
+
+Fanged Flyers 🥏🥏🥏🥏
+
+<!--truncate-->
+
+export const id = 58
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+巫师向前投掷**4**个狼牙飞碟并快速**后退**。
+
+狼牙飞碟飞行时，将对接触到的敌人造成**伤害和减速效果**。狼牙飞碟将在飞行一段距离后停止移动并开始**盘旋**，盘旋时将**持续**对周围敌人造成**范围**伤害。盘旋结束后，狼牙飞碟将**飞回**巫师身边，并对接触到的敌人造成伤害。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+韦斯莱魔法把戏坊出售的狼牙飞碟，是一种青柠绿的圆盘，边缘带着锋利的牙齿，盘面上有着鳄鱼的造型。一旦放出，狼牙飞碟就会到处乱飞，龇牙咧嘴，对挡路之物张嘴便咬。
+
+和尖叫悠悠球、连击回飞镖一样，狼牙飞碟也在费尔奇先生的城堡内禁用物品清单中有一席之地。赫敏·格兰杰担任级长时，她以没收这种恼人的飞碟而闻名，她也严厉地提醒违规学生：禁止在霍格沃茨使用狼牙飞碟。
+
+
+## log
+
+[2023-8-22](/blog/230822-update-annc#adjustment)调整：“狼牙飞碟”的最大飞出距离增加25%，扇形角度增加18%，盘旋伤害半径增加22%，且造成的伤害量大幅度增加。
+
+[2023-1-18](/blog/230118-update-annc#description)巫师向前投掷4个狼牙飞碟并快速后退。狼牙飞碟飞行时，将对接触到的敌人造成伤害和减速效果。狼牙飞碟将在飞行一段距离后停止移动并开始盘旋，盘旋时将持续对周围敌人造成范围伤害。盘旋结束后，狼牙飞碟将飞回巫师身边，并对接触到的敌人造成伤害。
+
+[2023-1-18](/blog/230118-update-annc#adjustment)调整：飞碟盘旋时间减少23%，盘旋的伤害增加130%，飞回的伤害减少33%。现在，巫师可以在一定范围内瞄准落点，并释放狼牙飞碟。

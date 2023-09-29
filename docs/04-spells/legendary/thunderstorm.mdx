@@ -1,0 +1,52 @@
+---
+sidebar_position: 4
+id: thunderstorm
+title: 火盾护身
+tags: [spell, legendary, manacost-6, damage]
+---
+
+Thunderstorm
+
+<!--truncate-->
+
+export const id = 71
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤雷鸟引来暴风雨，随机施放15道闪电。 
+
+✧每道闪电会随机攻击一个敌方单位，并对其造成减疗。
+
+✧闪电每次击败敌方单位，伤害都会提高10%，最多5次。
+
+✧击败5个敌方单位后，剩余闪电会同时攻击场上所有敌方单位。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+## 故事
+
+“雷鸟是一种生活在北美的魔法生物，在美国亚利桑那州尤为常见。成年的雷鸟比一个人还要高，它飞翔的时候会引发暴风雨。雷鸟可以敏锐地察觉到超自然的危险，所以用它的羽毛制成的魔杖时常可以先发制人。伊尔弗莫尼魔法学校的一个学院就以雷鸟命名。” ——纽特·斯卡曼德，《神奇动物在哪里》
+
+纽特·斯卡曼德曾从埃及的动物贩子手上解救过一只雷鸟，当时他打算把它送回亚利桑那州。但行至纽约的时候，纽特为了帮助魔法部抹去麻鸡们与魔法相关的记忆，便放出了这只巨大的鸟，从而制造了一场倾盆大雨。
+
+
+

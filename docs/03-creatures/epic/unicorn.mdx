@@ -1,0 +1,52 @@
+---
+sidebar_position: 13
+id: unicorn
+title: 独角兽
+tags: [summon, epic, manacost-5, back-row, damage]
+---
+
+Unicorn 🦄
+
+<!--truncate-->
+
+export const id = 41
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤一只受伤的独角兽，独角兽生命回复至100%后，立即向距离最远的敌方单位发起**强力冲锋**，对路径上敌方单位造成伤害。随后，独角兽将继续以冲锋的形式攻击。
+
+*独角兽出场时拥有最大生命值的**65%**，每**5**秒恢复一定生命值。
+
+*如果独角兽累计受到超过最大生命值**110%**的伤害，将停止自动回复生命值。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+独角兽是一种非常美丽纯洁的魔法生物，同时也十分脆弱。它们毛色纯白，长着犄角，可见于北欧森林中。喝了独角兽的血可以使人长生不老，但饮用者也会因此过着受诅咒的一生。
+
+哈利·波特一年级时，曾在禁林中和德拉科·马尔福遇到了一只丧命的独角兽。 这只独角兽被伏地魔附体的奇洛教授所害，并利用它的血来维持伏地魔的生命。
+
+
+

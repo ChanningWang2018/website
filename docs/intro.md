@@ -1,47 +1,33 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# Tutorial Intro
+# 写在前面
 
-Let's discover **Docusaurus in less than 5 minutes**.
+“如果你在前面写了些东西，那么，这些东西就被写在了前面✒”
 
-## Getting Started
+本网站的全部数据，如无特殊说明，均基于哈利波特：魔法觉醒大陆正式服的游戏内容。
 
-Get started by **creating a new site**.
+部分数据可能存在错漏，请谨慎甄别。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Contact Me: 
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## well, very interesing
 
-## Generate a new site
+本网站在显示卡牌面板时，将卡牌属性分为成长属性（加粗）与固定属性。成长属性的增长基本符合“每升1级，数值较上1级提高7%”的说法，但并非严格遵循。
 
-Generate a new Docusaurus site using the **classic template**.
+决斗场存在疲劳机制，当战斗进入疲劳阶段后，每隔**5**秒会对全场的巫师单位按最大生命值的相同百分比扣除血量。
 
-The classic template will automatically be added to your project after you run the command:
+组队模式下，救援队友的读条可累积，打断后不会重新读条。
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## log
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+[2023-8-22](/blog/230822-update-annc#adjustment)去除所有能免疫决斗后期强制扣除生命值的机制，强制造成的伤害值不会因为任何情况而改变。任何卡牌的无敌效果都无法免疫此伤害。
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+[2023-8-8](/blog/230808-update-annc#adjustment)优化了“决斗俱乐部”中移动卡的数量，荣誉决斗家以下段位的初始移动卡数量增加。
 
-## Start your site
+[2023-6-1](/blog/230601-update-annc#probability)禁忌/光辉卡概率调整为与传说卡一致。
 
-Run the development server:
+[2023-6-1](/blog/230601-update-annc#adjustment)移动卡使用后1秒内，再次进行移动不额外消耗移动卡
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

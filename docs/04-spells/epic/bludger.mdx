@@ -1,0 +1,54 @@
+---
+sidebar_position: 2
+id: bludger
+title: 游走球
+tags: [spell, epic, manacost-4, damage]
+---
+
+Bludger 🏏
+
+<!--truncate-->
+
+export const id = 36
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+向指定方向击出游走球，对路径上所有敌方单位造成伤害，游走球命中敌方单位后将返回。
+
+*你可以通过移动接住游走球并再次朝敌方单位击出，最多5次。
+
+*最后一次击打时，游走球会造成高额伤害，并击退路径上所有敌方单位。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+###
+
+游走球在打出后，最多可以接发5次，对路径上的敌人共造成11次伤害，且第11次为强化伤害。
+
+
+## 故事
+
+游走球是一种直径十英寸的漆黑铁球， 在魁地奇运动中使用。每场比赛开始时，都会放出两只游走球，它们唯一的目的就是将球员从扫帚上撞下去。击球手在保护队员不受游走球攻击的同时，还要将球击向对方球员。
+
+哈利二年级时，一只游走球曾试图重创他。格兰芬多的两位击球手之一——弗雷德·韦斯莱救了他一命，他使用了浑身解数来阻止这只凶猛的游走球撞向这位年轻的找球手。
+
+
+

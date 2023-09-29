@@ -1,0 +1,54 @@
+---
+sidebar_position: 1
+id: acromantula_venom
+title: 八眼蜘蛛的毒液
+tags: [spell, common, manacost-4, damage, control]
+---
+
+Acromantula Venom 🕷️⚗
+
+<!--truncate-->
+
+export const id = 1
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+扔出一瓶八眼巨蛛毒液，对范围地面上的所有敌方单位持续造成伤害和减速效果。
+
+毒液每秒造成一次伤害，每次伤害较前次递增10%。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+### 备注
+
+18级毒液的首段伤害为37，19级毒液的伤害为39。
+
+16级毒液的第1段伤害为31，后续依次为34，37，40，43，**47**， 50，53，56，59，62，65，68，71，共计14段伤害，总伤害为716；17级毒液的第1段伤害为33，后续依次为36，**40**，43，46， **50**，53，56，59，**63**，66，69，**73**，76，共计14段伤害，总伤害为763。
+
+18级的毒液总伤害比17级高49，19级毒液总伤害仅比18级高43，20级毒液总伤害比19级高69。
+
+## 故事
+
+因八眼巨蛛生性凶残、极其危险，想从活着的巨蛛身上搞到毒液非常困难，只能趁其死后不久迅速提取。因此八眼巨蛛的毒液在市场上往往能卖到每品脱一百加隆的高价！毕竟物以稀为贵！因八眼巨蛛生性凶残、极其危险，想从活着的巨蛛身上搞到毒液非常困难，只能趁其死后不久迅速提取。因此八眼巨蛛的毒液在市场上往往能卖到每品脱一百加隆的高价！毕竟物以稀为贵！
+
+海格的老朋友阿拉戈克离世后，斯拉格霍恩教授抓住机会提取到了一瓶毒液。面对这种情形，斯拉格霍恩教授认为若不及时将这珍贵的毒液取出，将是对这头曾经凶猛的野兽的侮辱。
+
+
+
