@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { usePluginData } from '@docusaurus/useGlobalData';
-import {avatarDir, avatarStyle, avatarFrame, avatarNameStyle, avatarBoxStyle, docDir, rarityMap, typeMap} from './cardConfig'
+import {avatarDir, avatarStyle, avatarFrame, avatarNameStyle, avatarBoxStyle, docDir, rarityMap, typeMap} from '../components/HomepageFeatures/cardConfig'
 import SearchBox from './searchBox';
 
 const FileManagementSystem = () => {
