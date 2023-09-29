@@ -1,0 +1,49 @@
+---
+sidebar_position: 1
+id: nebulus
+title: 云雾飘渺
+tags: [spell, rare, manacost-2, heal]
+---
+
+Nebulus ☁︎
+
+<!--truncate-->
+
+export const id = 29
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤浓雾笼罩一片区域。处于雾中的所有单位会隐身并缓慢恢复生命值。
+
+如果雾中有敌方单位，则隐身效果会失效。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+## 故事
+
+如果有人需要一团烟雾来掩盖行踪，云雾缥缈咒将是不二之选。施咒时，一团厚厚的云雾会从魔杖的顶端涌出。
+
+1927年的伦敦，邓布利多与他以前的学生纽特·斯卡曼德在屋顶上秘密会面，当时天空明朗无云，但片刻之间，便被浓雾遮蔽，从而帮助邓布利多和纽特避开了监视。
+
+
+## log
+
+[2023-4-26](/blog/230426-update-annc#fix)修复了特定情况下云雾缥缈无法隐藏巫师方技能特效的问题。

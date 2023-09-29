@@ -1,0 +1,55 @@
+---
+sidebar_position: 2
+id: azkaban
+title: 阿兹卡班
+tags: [spell, dark, manacost-7, damage, control]
+---
+
+Azkaban
+
+<!--truncate-->
+
+export const id = 79
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+在指定区域召唤阿兹卡班，产生内圈和外圈两个影响区域。 
+
+✧处于内圈的敌方单位会被囚禁，仅有少量方式能够逃离此区域。 
+
+✧外圈会不断向内收缩，当外圈与内圈重合时，对圈内的所有敌方单位造成高额伤害，血量低于30%的**非巫师**单位将**直接**被击败。 
+
+✧若当阿兹卡班存在于场上时或内外圈重合造成伤害时，位于内圈的敌方单位被击败，将额外触发1次范围伤害。
+
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+## 故事
+
+阿兹卡班位于北海中一个无法被定位的岛屿上，在15世纪由黑巫师艾克斯蒂斯建造，在1718年被征用为英国魔法界的监狱。阿兹卡班是一个臭名昭著的地方，被摄魂怪们看守。魔法部雇佣这些邪恶的生物作为监狱守卫，允许摄魂怪吸食囚犯们的幸福作为看守的酬劳。
+
+在摄魂怪的监视下，许多囚犯很快就会陷入绝望，失去理智，丧失生存的意志。多年来，巫师们一直在对阿兹卡班监狱不人道的环境表达担忧和提出抗议。然而，直到金斯莱·沙克尔上任魔法部长，摄魂怪们才真正被驱逐。傲罗代替摄魂怪成为阿兹卡班的新看守。
+
+## log
+
+[2023-7-26](/blog/230726-fix-annc#fix)修复了魔咒“阿兹卡班”技能描述错误的问题。
+
+[2023-7-26](/blog/230725-update-annc#description)若当阿兹卡班存在于场上时或内外圈重合造成伤害时，位于内圈的敌方单位被击败，将额外触发1次范围伤害，额外伤害最多被触发2次。
+

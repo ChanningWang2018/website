@@ -1,0 +1,56 @@
+---
+sidebar_position: 3
+id: protego_diabolica
+title: 火盾护身
+tags: [spell, legendary, manacost-5, damage]
+---
+
+Protego Diabolica
+
+<!--truncate-->
+
+export const id = 76
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+施放以自己为中心的环形火墙，火墙会对所有进入的敌方单位造成伤害。
+
+✧玩家单位及时间转换器召唤单位处于火墙内时，将持续为火墙充能；且单位数量越多，充能越快，最多充能3次。
+
+✧充能成功后1只火龙诞生，冲向最远的地方单位，并对沿途所有的敌方单位造成伤害。
+
+✧每充能成功1次，都将额外诞生1只火龙。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+## 故事
+
+火盾护身咒语可以在施咒者的周围召唤出一圈黑火，保护他们免受伤害。敌军在穿过火焰的时候会受到伤害，而友军则可以毫发无伤地穿过火焰。
+
+在莱斯特兰奇陵墓，盖勒特•格林德沃曾用这个咒语测试追随者的忠诚度。大量忠心的巫师安全地穿越了火焰，但是他的追随者克拉尔却由于不再热衷格林德沃的计划而在穿过时灰飞烟灭了。
+
+
+## log
+
+[2023-6-27](/blog/230627-update-annc#adjustment)调整：火墙伤害下调27%。
+
+[2023-3-29](/blog/230329-update-annc#adjustment)调整：火盾护身召唤的火龙，所造成的伤害减少13%。

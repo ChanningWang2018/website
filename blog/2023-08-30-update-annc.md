@@ -1,6 +1,6 @@
 ---
-slug: hpma230830-update-annc
-title: MA230830 Update Annc
+slug: 230830-update-annc
+title: 2023年8月30日更新公告
 tags: [hpma, update, downtime]
 ---
 

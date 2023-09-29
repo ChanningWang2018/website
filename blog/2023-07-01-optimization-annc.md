@@ -1,6 +1,6 @@
 ---
-slug: hpma230701-optimization-annc
-title: MA230701 Opt Annc
+slug: 230701-optimization-annc
+title: 2023年7月1日追加更新
 tags: [hpma, optimization, append]
 ---
 

@@ -1,0 +1,54 @@
+---
+sidebar_position: 2
+id: baby_manticores
+title: 摇摆蝎尾兽
+tags: [summon, epic, manacost-3, move]
+---
+
+Baby Manticores 🦂🦂👶🦂🦂
+
+<!--truncate-->
+
+export const id = 63
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+玩家模仿蝎尾兽移动，期间速度提升且**不**消耗移动卡。**幻影移形**及乘坐**海格摩托车**时不包含在内。
+
+*使用该卡牌时不会打断技能施放或持续。
+
+*模仿持续10秒，每隔2.5秒吸引一只小蝎尾兽。
+
+*控制效果会打断模仿，若模仿未被打断，则结束时鼓舞友军，提升移动速度。
+
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+## 故事
+
+原产于希腊的蝎尾兽是一种极其危险的生物。根据纽特·斯卡曼的著作《神奇动物在哪里》可知，它的皮几乎能排斥所有已知咒语。如果被它的蝎子尾巴蛰一下，会当场毙命。
+
+蝎尾兽的幼崽常成群结队地行动，特别是在即将进食的时刻。如果不小心落入了蝎尾兽的巢穴，模仿蝎尾兽的移动可以暂时隐匿自己的行迹。当然，如果遇上的是成年蝎尾兽，则只有一个生存法则，那就是快跑。
+
+
+## log
+
+[2023-4-26](/blog/230426-update-annc#fix)修复了巫师处于友方海格摩托车上时无法加入蝎尾兽之舞的问题。

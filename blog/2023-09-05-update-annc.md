@@ -1,6 +1,6 @@
 ---
-slug: hpma230905-update-annc
-title: MA230905 Update Annc
+slug: 230905-update-annc
+title: 2023年9月5日更新公告
 tags: [hpma, update, fix, optimization, downtime]
 ---
 
@@ -142,7 +142,7 @@ tags: [hpma, update, fix, optimization, downtime]
 
 10、优化了舞会名册的功能，现在巫师可以旋转镜头及缩放调整大小，以此观赏其他巫师的舞姿。巫师在查看名册时，也可以收到舞会邀请。
 
-## 问题修正
+## <span id="fix">问题修正</span>
 
 1、修复了部分脸型显示异常的问题。
 

@@ -1,0 +1,62 @@
+---
+sidebar_position: 1
+id: headless_hunt
+title: 幽灵骑士团
+tags: [spell, legendary, manacost-5, damage]
+---
+
+Headless Hunt
+
+<!--truncate-->
+
+export const id = 74
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤幽灵骑士团向前方冲刺，对路径上的所有敌方单位造成伤害并标记，之后骑士队长会单独向敌方巫师再次发起攻击并引爆标记。多个骑士命中会提高标记爆炸伤害。
+
+✧当这张卡处于手牌时，巫师每使用1张召唤卡，都会使骑士团的骑士数量增加1，最多可增加3个骑士。
+
+✧骑士的数量越多，冲刺伤害和标记爆炸伤害就越高。
+
+✧幽灵骑士团冲刺时，对首个敌方单位造成满额伤害，对其余敌方单位减少50%伤害。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+
+
+## 故事
+
+“幽灵骑士团”是一群由被斩首的幽灵组成的团体，他们喜欢举行诸如马背头杂耍和头顶马球之类的活动。尼古拉斯·德·敏西-波平顿爵士曾犯过一个可怕的错误，他邀请了这些幽灵猎手参加了自己的五百岁忌辰晚宴。结果，他们的出现完全夺走了其他人的注意力，让尼克这个主角颜面扫地。
+
+事实上，尼克一直都渴望成为“幽灵骑士团”的一员。但不幸的是，尽管他曾遭遇过斩首，但由于只剩下一英寸半的皮肤和肌肉没有被斩断，他的入队申请全都被驳回了。每次拒绝都让这位格兰芬多的幽灵深受打击，毕竟他可是真心想要加入的。
+
+
+## log
+
+[2023-9-19](/blog/230919-update-annc#adjustment)调整：增加了使用时的生效延迟，在延迟期间巫师移动位置不会改变无头骑士出发的起点。同时，每个无头骑士仅对首个受击目标造成全额伤害，后续受击的敌方单位只承受50%的伤害。
+
+[2023-6-27](/blog/230627-update-annc#adjustment)调整：冲锋及附加伤害减少11%，二段伤害提高30%。
+
+[2023-5-10](/blog/230510-update-annc#description)"召唤幽灵骑士团向前方冲刺，对路径上的所有敌方单位造成伤害并标记，之后骑士队长会单独向敌方巫师再次发起攻击并引爆标记。多个骑士命中会提高标记爆炸伤害。
+
+当这张卡处于手牌时，巫师每使用1张召唤卡，都会使骑士团的骑士数量增加1，最多可增加3个骑士。"
