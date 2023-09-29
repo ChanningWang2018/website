@@ -25,7 +25,7 @@ const FileManagementSystem = () => {
     card["name"].toLowerCase().includes(filter.toLowerCase()) || card.alias.includes(filter.toLowerCase())
   );
 
-  const snorlaxImg = `${avatarDir}/snorlax.jpg`
+  const snorlaxImg = `${avatarDir}/snorlax.png`
 
   const handleImgError = (e) => {
     if (e.target.src !== snorlaxImg) {
