@@ -10,7 +10,11 @@ sidebar_position: 0
 
 部分数据可能存在错漏，请谨慎甄别。
 
-Contact Me: 
+本人接触前端的时间不到半个月，2023年9月22日正式开始开发此网页，故难免有所疏漏。如果对网站有任何建议或疑问，欢迎联系我。
+
+Email：standofkinsey@yandex.com
+
+游戏内id：Net Ease
 
 
 ## well, very interesing
