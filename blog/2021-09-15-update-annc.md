@@ -1,15 +1,26 @@
----
-slug: 210915-update-annc
-title: 2021年9月15日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 210915-update-annc
+
+title: 2021年9月15日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
+
 亲爱的巫师:
 
 为了给大家带来更好的游戏体验，服务器将于9月15日(周三)早上2:00-7:00进行停服维护，如未能按时完成，则开服时间将会顺延。
@@ -29,7 +40,7 @@ tags: [downtime, fix, optimization, update, ]
 
 与其他玩家组成队伍参加自由匹配的2v2公平竞技，在甜蜜的战斗中赢取巧克力蛙吧！
 
-3、[第二学年开启](完成第一学年日记本节点28后即可解锁第二学年记录)
+3、\[第二学年开启](完成第一学年日记本节点28后即可解锁第二学年记录)
 
 第二学年已经开启，客座教授戈尔斯基为什么形迹可疑？霍格沃茨不见天日的地牢里又藏着什么秘密？快来和洛蒂一起揭开背后的谜团。
 
