@@ -1,15 +1,24 @@
----
-slug: 220914-update-annc
-title: 2022年9月14日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220914-update-annc
+
+title: 2022年9月14日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 停服维护公告
 
 为了给大家带来更好的游戏体验，服务器将于9月14日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
@@ -43,7 +52,7 @@ tags: [downtime, fix, optimization, update, ]
 
 活动期间内，参与比赛即可提升研习等级，领取决斗勋章、宝石、非凡卡包等奖励。
 
-回响详情：
+<span id="echo_description">回响详情：</span>
 
 罗恩·韦斯莱
 

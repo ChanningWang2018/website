@@ -1,16 +1,24 @@
----
-slug: 221102-update-annc
-title: 2022年11月2日公告
-tags: [downtime, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
-
-
+---
+
+slug: 221102-update-annc
+
+title: 2022年11月2日公告
+
+tags: [downtime, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 为了给大家带来更好的游戏体验，服务器将于11月2日(周三)早上7:00-9:30进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -72,7 +80,7 @@ tags: [downtime, optimization, update, ]
 
 可通过游戏“主界面 - 活动 - 巫师猜猜乐”查看决赛竞猜详细规则。
 
-平衡性调整：
+<span id="adjustment">平衡性调整：</span>
 
 魔咒调整：
 

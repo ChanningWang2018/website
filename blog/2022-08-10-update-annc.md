@@ -1,15 +1,26 @@
----
-slug: 220810-update-annc
-title: 2022年8月10日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220810-update-annc
+
+title: 2022年8月10日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
+
 为了给大家带来更好的游戏体验，服务器将于8月10日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -79,7 +90,7 @@ tags: [downtime, fix, optimization, update, ]
 
 随着“黑湖之谜”的真相揭开，校园里逐渐出现了佩戴“勇气之冠”的潮流，你会从这顶王冠中得到勇气吗？
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 决斗调整
 

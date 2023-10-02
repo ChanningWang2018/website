@@ -1,13 +1,23 @@
----
-slug: 221207-update-annc
-title: 2022年12月7日公告
-tags: [update, fix, downtime, optimization, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
+
+slug: 221207-update-annc
+
+title: 2022年12月7日更新公告
+
+tags: [update, fix, downtime, optimization, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
 
 为了给大家带来更好的游戏体验，服务器将于12月7日(周三)早上07:00-09:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 

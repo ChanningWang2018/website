@@ -1,15 +1,25 @@
----
-slug: 220921-update-annc
-title: 2022年9月21日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220921-update-annc
+
+title: 2022年9月21日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 为了给大家带来更好的游戏体验，服务器将于9月21日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -123,7 +133,7 @@ tags: [downtime, fix, optimization, update, ]
 
 活动期间，通过禁林掉落或商店购买随机回响，获得罗恩·韦斯莱回响的概率提升100%！
 
-回响详情：
+<span id='echo_description'>回响详情：</span>
 
 装配普通/稀有/史诗/传说品质的“罗恩·韦斯莱回响”后，玩家使用咒语卡时，每消耗8/7/6/5点魔力值，即可获得1枚随机棋子。
 
@@ -224,7 +234,7 @@ tags: [downtime, fix, optimization, update, ]
 
 男-发型“不羁棋手”、女-发型“飒爽英姿”，开启染发功能。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 罗恩·韦斯莱回响
 

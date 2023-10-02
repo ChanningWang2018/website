@@ -1,15 +1,24 @@
----
-slug: 220907-update-annc
-title: 2022年9月7日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220907-update-annc
+
+title: 2022年9月7日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 为了给大家带来更好的游戏体验，服务器将于9月7日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -109,7 +118,7 @@ tags: [downtime, fix, optimization, update, ]
 
 新服[陋居]19服即将于9月14日开启，预热期间，所有玩家每日可在活动页领取登录奖励，持续7天，不可补签，小巫师们记得每日来领取哦。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 回响调整
 
@@ -195,13 +204,6 @@ tags: [downtime, fix, optimization, update, ]
 
 现在每消耗一张移动卡，都将对被冲撞的敌方单位造成一次伤害。
 
-改动
-在2022-09-07 14:09修改 
-评论
-UID:42336997
-  我也不知道卧底策划能不能看见贴条，反正周围很多人包括我都遇到了俩问题，回归玩家貌似做不完这么多天的回归任务，公共休息室就始终就那三个npc看不到其他玩家。还有设置里面现在是默认社交私人化，为什么要弄成默认，五月份回来看的时候还没这东西，上周回来搞得我一个人在大街上晃悠好几天。周年庆准备拉人回来跟那三个npc过日子是吧，你不是整社交游戏吗
-
-       
 
 
 https://nga.178.com/read.php?&tid=33385399

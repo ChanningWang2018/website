@@ -1,14 +1,25 @@
----
-slug: 221019-update-annc
-title: 2022年10月19日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
+---
+
+slug: 221019-update-annc
+
+title: 2022年10月19日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 为了给大家带来更好的游戏体验，服务器将于10月19日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -44,7 +55,7 @@ tags: [downtime, fix, optimization, update, ]
 
 购买礼包，即可获得“梳妆魔盒·时新”、“摇摆蝎尾兽-占星”、“传说记忆瓶”、“幸运发条”等丰厚礼品！
 
-平衡性调整
+<span id="adjustment">平衡性调整</span>
 
 呼神护卫
 
