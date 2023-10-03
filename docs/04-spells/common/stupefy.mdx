@@ -43,9 +43,6 @@ import {CardComplexTable} from "/src/components/CardInfo/CardTable"
 <CardComplexTable cardKey={id}/>
 
 
-
-
-
 ## 故事
 
 昏昏倒地是一种能致人昏迷的咒语，在魔法决斗中非常有效，因为使用昏昏倒地能不伤害对手而取得胜利。但对有魔法抗性的生物，例如巨人、巨魔和龙，则可能要施好几次昏昏倒地才能制服它们。
@@ -59,3 +56,19 @@ import {CardComplexTable} from "/src/components/CardInfo/CardTable"
 [2023-3-22](/blog/230322-update-annc#fix)修复了部分情况下，被魔咒“昏昏倒地”击中的单位碰撞到边界时滑行过远的问题。
 
 [2022-12-28](/blog/221228-update-annc#adjustment)调整：第一段伤害减少14%，第二段伤害提高8%。
+
+[2022-8-17](/blog/220817-update-annc#fix)修复了“哈利·波特的回响”对“昏昏倒地”伤害加成异常的问题。
+
+[2022-6-22](/blog/220622-update-annc#fix)修复了昏昏倒地一段命中被变形为兔子的单位后，无法触发二段击退及伤害的问题。
+
+[2022-6-22](/blog/220622-update-annc#fix)修复了部分情况下，被昏昏倒地击中的单位碰撞到边界时滑行过远的问题。
+
+[2022-6-15](/blog/220615-update-annc#optimization)优化了击退逻辑，修复了昏昏倒地部分情况下无法命中2段目标的问题。
+
+[2022-6-8](/blog/220608-update-annc#fix)修复了“昏昏倒地”命中的首个单位处于被击退状态时，不会触发二段眩晕的问题。
+
+[2022-5-11](/blog/220511-update-annc#fix)修复了部分情况下，魔咒“昏昏倒地”击退距离错误的问题。
+
+[2022-1-19](/blog/220119-update-annc#fix)修复了少数情况下“昏昏倒地”击中嗅嗅后无法命中后续单位的问题。
+
+[2021-12-29](/blog/211229-update-annc#adjustment)调整：现在使用“昏昏倒地”撞击到敌方单位后，会造成扇形范围伤害，伤害和范围会随撞击单位的体型增大而增大。
