@@ -1,14 +1,25 @@
----
-slug: 211020-update-annc
-title: 2021年10月20日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
+---
+
+slug: 211020-update-annc
+
+title: 2021年10月20日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 亲爱的巫师：
 
 为了给大家带来更好的游戏体验，服务器将10月20日(周三)早上4:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
@@ -30,7 +41,7 @@ tags: [downtime, fix, optimization, update, ]
 
 活动规则：活动期间，巫师每日可以从桃金娘处获得2条线索，线索指向城堡的某处。本期拼图寻宝将发布16条线索。解开谜题后，可获得拼图碎片，集齐全部碎片可获得最终奖励。本期活动奖励包含[随机画像*1]、[当期设定集*1]、[金币*8000]。
 
-[平衡性调整]
+<span id='optimization'>[平衡性调整]</span>
 
 此次更新，对一些魔咒平衡性进行了优化。具体如下：
 

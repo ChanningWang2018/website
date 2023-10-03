@@ -1,28 +1,25 @@
----
-slug: 211101-append-annc
-title: 2021年11月1日公告
-tags: []
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-MA2平衡性更新
+slug: 211101-append-annc
+
+title: 2021年11月1日公告
+
+tags: [update, append, optimization, fix]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+<span id='adjustment'>MA2平衡性更新</span>
 
 以下内容将于MA2赛季开始时玩家更新补丁后生效：
 

@@ -1,16 +1,25 @@
----
-slug: 210922-update-annc
-title: 2021年9月22日公告
-tags: [downtime, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
-
-
+---
+
+slug: 210922-update-annc
+
+title: 2021年9月22日公告
+
+tags: [downtime, optimization, update, fix]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 为了给大家带来更好的游戏体验，服务器将于9月22日(周三)早上2:00-7:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来不便，敬请谅解。感谢各位巫师的支持！
@@ -181,7 +190,7 @@ tags: [downtime, optimization, update, ]
 
 16.优化了金色飞贼的抓取难度，现在使用金色飞贼后，金色飞贼更好抓取了
 
-问题修复
+<span id='fix'>问题修复</span>
 
 修正了部分情况下韦斯莱回响触发固定伙伴的问题
 

@@ -106,3 +106,8 @@ Email：standofkinsey@yandex.com
 [2021-12-1](/blog/211201-update-annc#fix)修复了极少数情况下救援按钮会消失的问题。
 
 [2021-11-24](/blog/211124-update-annc#optimization)优化了使用移动卡过程中的指示效果，现在巫师们可以更加清楚地了解移动过程中可以调整位置的时间区间了。
+
+[2021-11-3](/blog/211103-update-annc#fix)修复了战斗部分情况下主角会滑步的问题。
+
+[2021-10-20](/blog/211020-update-annc#optimization)优化了战斗移动的点击体验。现在点击战场外区域，会正确地走到最近的战场边缘位置了。
+

@@ -1,14 +1,25 @@
----
-slug: 211027-update-annc
-title: 2021年10月27日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
+---
+
+slug: 211027-update-annc
+
+title: 2021年10月27日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 为了给大家带来更好的游戏体验，服务器将于10月27日(周三)早上4:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -176,7 +187,7 @@ MA2赛季将于11月1日 5:30正式开启！决斗俱乐部段位将进行重置
 
 增加“魔咒大师”成就，期待巫师们达成全新目标！
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 [回响调整]
 

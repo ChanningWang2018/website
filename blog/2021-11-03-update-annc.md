@@ -1,16 +1,25 @@
----
-slug: 211103-update-annc
-title: 2021年11月3日公告
-tags: [downtime, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
-
-
+---
+
+slug: 211103-update-annc
+
+title: 2021年11月3日公告
+
+tags: [downtime, optimization, update, fix, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 亲爱的巫师：
 
 为了给大家带来更好的游戏体验，服务器将于11月3日(周三)早上5:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
@@ -143,7 +152,7 @@ tags: [downtime, optimization, update, ]
 
 优化了时装[单色格调]的道具图标显示。
 
-问题修复
+## <span id='fix'>问题修复</span>
 
 修复了升级魔咒时，未正常触发魔法书等级提升弹窗的问题。
 
