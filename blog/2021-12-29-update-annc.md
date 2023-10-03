@@ -1,14 +1,25 @@
----
-slug: 211229-update-annc
-title: 2021年12月29日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
+---
+
+slug: 211229-update-annc
+
+title: 2021年12月29日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 为了给大家带来更好的游戏体验，服务器将于12月29日6:30~9:00进行停服维护。如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。
 
 
@@ -93,7 +104,7 @@ NeXT电竞将邀请主播嘉宾组成团队，进行激烈刺激的团队挑战�
 
 世界挑战限时活动“冰雪巨人”上线，快来与格洛普探索更高深的魔咒奥秘！
 
-[“最佳拍档”平衡性调整]
+<span id='adjustment'>[“最佳拍档”平衡性调整]</span>
 
 设计师观点：
 

@@ -1,15 +1,24 @@
----
-slug: 220301-update-annc
-title: 2022年3月1日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220301-update-annc
+
+title: 2022年3月1日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 我们将于3月1日(周二)早上5:00-9:00进行停服更新，预计维护时间4小时，维护期间将暂时无法进入游戏。给各位带来的不便，敬请谅解。
 
 ## 重要更新
@@ -93,7 +102,7 @@ MA6赛季将于3月1日5:30正式开启！决斗俱乐部段位将进行重置�
 
 更新后，光辉/禁忌魔咒将加入“复制成双”，快来试试吧！
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 回响调整
 

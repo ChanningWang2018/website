@@ -1,15 +1,24 @@
----
-slug: 220427-update-annc
-title: 2022年4月27日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220427-update-annc
+
+title: 2022年4月27日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师：
 
 为了给大家带来更好的游戏体验，服务器将于4月27日(周三)早上07:00-09:00进行停服维护，如未能按时完成，则开服时间将会顺延。
@@ -142,7 +151,7 @@ MA8赛季将于5月1日5:30正式开启！决斗俱乐部段位将进行重置�
 
 活动期间，参与决斗俱乐部“最佳拍档”和“最强巫师”模式，每日前5次排位赛战斗失败将不会扣除积分，尽情享受决斗的乐趣吧！
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 回响调整：
 

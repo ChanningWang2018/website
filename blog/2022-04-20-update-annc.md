@@ -1,15 +1,24 @@
----
-slug: 220420-update-annc
-title: 2022年4月20日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220420-update-annc
+
+title: 2022年4月20日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师： 为了给大家带来更好的游戏体验，服务器将于4月20日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
 
 ## 重要更新
@@ -54,9 +63,5 @@ tags: [downtime, fix, optimization, update, ]
 3.修复了舞会场景使用魔法相机时无法隐藏陌生人的问题。
 
 4.修复了与伙伴跳舞后，伙伴在结算界面消失的问题。
-
-https://nga.178.com/read.php?&tid=31544873
-
-https://nga.178.com/read.php?&tid=31544873
 
 https://nga.178.com/read.php?&tid=31544873

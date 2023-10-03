@@ -1,14 +1,24 @@
----
-slug: 211124-update-annc
-title: 2021年11月24日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
+---
+
+slug: 211124-update-annc
+
+title: 2021年11月24日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师：
 
 为了给大家带来更好的游戏体验，服务器将于11月24日(周三)早上4:30-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。

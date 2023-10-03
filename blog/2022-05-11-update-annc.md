@@ -1,15 +1,24 @@
----
-slug: 220511-update-annc
-title: 2022年5月11日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220511-update-annc
+
+title: 2022年5月11日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师：
 
 为了给大家带来更好的游戏体验，服务器将于5月11日(周三)早上07:00-09:00进行停服维护，如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -23,7 +32,7 @@ tags: [downtime, fix, optimization, update, ]
 
 2、活动期间，在图书馆累计阅读60次，即可领取光辉伙伴卡“昔日重现-多比”，奖励可在图书馆界面领取(仅可领取一次)。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 一、决斗调整
 

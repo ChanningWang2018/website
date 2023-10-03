@@ -1,15 +1,24 @@
----
-slug: 220518-update-annc
-title: 2022年5月18日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220518-update-annc
+
+title: 2022年5月18日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 为了给大家带来更好的游戏体验，服务器将于5月18日(周三)早上07:00-09:00进行停服维护，如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
 
 ## 重要更新
@@ -73,7 +82,7 @@ tags: [downtime, fix, optimization, update, ]
 
 全新时装“草药学者”上线，巫师在5月18日维护后至6月1日4:59期间进行购买，更可以120星石特价获取！活动结束后，“草药学者”时装和“草叶尖帽”帽子将加入摩金夫人长袍专卖店“当季热销”轮换中。
 
-魔咒升阶
+<span id ='update'>魔咒升阶</span>
 
 光辉与禁忌的对决已然开始，你会做出怎样的选择？
 

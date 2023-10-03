@@ -1,15 +1,24 @@
----
-slug: 220629-update-annc
-title: 2022年6月29日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220629-update-annc
+
+title: 2022年6月29日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 为了给大家带来更好的游戏体验，服务器将于6月29日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -157,7 +166,7 @@ MA第10赛季将于7月1日5:30正式开启！决斗俱乐部段位将进行重�
 
 4. 修复了好友排行榜部分情况下无法即时刷新的问题。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 一、回响调整
 

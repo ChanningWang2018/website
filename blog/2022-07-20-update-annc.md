@@ -1,15 +1,26 @@
----
-slug: 220720-update-annc
-title: 2022年7月20日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220720-update-annc
+
+title: 2022年7月20日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
+
 为了给大家带来更好的游戏体验，服务器将于7月20日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -107,7 +118,7 @@ tags: [downtime, fix, optimization, update, ]
 
 5、活动期间，新服的决斗俱乐部和社团的全服排行榜暂不开启。
 
-## <span id='optimization'>体验优化</span>
+## <span id='c'>体验优化</span>
 1、优化了“染发灵”材料及配方的获取途径，现在参与禁林玩法，即有概率获得“染发灵”制作材料，其中“火球龙尖刺粉末”只能在紫色和红色线索副本中获得。
 
 课堂商店中上架妙妙染发灵配方和混色染发灵配方。

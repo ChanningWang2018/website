@@ -1,15 +1,24 @@
----
-slug: 211201-update-annc
-title: 2021年12月1日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 211201-update-annc
+
+title: 2021年12月1日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师：
 
 为了给大家带来更好的游戏体验，服务器将于12月1日(周三)早上4:30-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
@@ -143,7 +152,7 @@ MA3赛季将于12月1日 5:00正式开启！决斗俱乐部段位将进行重置
 
 邂逅温暖，绽放冬季。
 
-[回响调整]
+<span id='echo_adjustment'>[回响调整]</span>
 
 [纳威·隆巴顿回响]
 
@@ -170,7 +179,7 @@ MA3赛季将于12月1日 5:00正式开启！决斗俱乐部段位将进行重置
 
 设计师观点：我们注意到了巫师们对该回响的开发，目前，"韦斯莱双胞胎的回响"拥有极强的进攻性，我们希望在初始对局中降低一些压迫感，所以我们略微调整了冷却时间。随后，我们也会对战斗环境进行密切的关注，不断进行优化。
 
-魔咒调整
+<span魔咒调整
 
 [凤凰]
 

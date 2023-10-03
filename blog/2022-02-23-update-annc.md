@@ -1,15 +1,24 @@
----
-slug: 220223-update-annc
-title: 2022年2月23日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220223-update-annc
+
+title: 2022年2月23日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的各位巫师：
 
 我们将于2月23日(周三)早上7:00-9:00进行停服更新，预计维护时间2小时，维护期间将暂时无法进入游戏。给各位带来的不便，敬请谅解。

@@ -1,15 +1,24 @@
----
-slug: 220407-update-annc
-title: 2022年4月7日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220407-update-annc
+
+title: 2022年4月7日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师：
 
 为了给大家带来更好的游戏体验，服务器将于4月7日(周四)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
@@ -180,7 +189,7 @@ tags: [downtime, fix, optimization, update, ]
 
 帮助海格寻找嗅嗅，完成后可获得表情包等奖励。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 决斗调整
 

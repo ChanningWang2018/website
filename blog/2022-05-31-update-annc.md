@@ -1,15 +1,24 @@
----
-slug: 220531-update-annc
-title: 2022年5月31日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220531-update-annc
+
+title: 2022年5月31日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 为了给大家带来更好的游戏体验，服务器将于5月31日(周二)早上07:00-09:00进行停服维护，如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
 
 ## 重要更新
@@ -109,7 +118,7 @@ MA9赛季将于6月1日 5:00正式开启！决斗俱乐部段位将进行重置�
 
 反向操作：迷惑敌方所有球员，使他们的操作方向与飞行方向相反。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 一、决斗调整
 

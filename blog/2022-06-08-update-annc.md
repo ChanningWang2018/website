@@ -1,15 +1,24 @@
----
-slug: 220608-update-annc
-title: 2022年6月8日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220608-update-annc
+
+title: 2022年6月8日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 为了给大家带来更好的游戏体验，服务器将于6月8日(周三)早上07:00-09:00进行停服维护，如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
 
 ## 重要更新
@@ -31,7 +40,7 @@ tags: [downtime, fix, optimization, update, ]
 
 “魔咒互换”推出全新线上好友互换方式，维护后巫师们可以选择与游戏好友进行线上交换啦！另因技术升级，我们暂时停止了蓝牙/WiFi的互换方式，待升级完成后将会恢复，对此造成的不便，我们深表歉意。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 1、鲁伯·海格
 

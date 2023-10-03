@@ -1,20 +1,31 @@
----
-slug: 211117-update-annc
-title: 2021年11月17日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
-
+---
+
+slug: 211117-update-annc
+
+title: 2021年11月17日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
+
 为了给大家带来更好的游戏体验，服务器将于11月17日(周三)早上4:30-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
 
 ## 重要更新
-[全新魔咒更新]
+<span id='description'>[全新魔咒更新]</span>
 
 1.传说伙伴“罗恩·韦斯莱”
 
@@ -54,7 +65,7 @@ tags: [downtime, fix, optimization, update, ]
 
 赛季商店上架超值礼包，助力巫师赛季冲刺。
 
-魔咒调整
+<span id='adjustment'>魔咒调整</span>
 
 [罗恩·韦斯莱]
 

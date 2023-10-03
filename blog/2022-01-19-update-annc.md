@@ -1,15 +1,24 @@
----
-slug: 220119-update-annc
-title: 2022年1月19日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220119-update-annc
+
+title: 2022年1月19日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师们：
 
 为了给大家带来更好的游戏体验，服务器将于1月19日(周三)早上6点-9点进行停服维护，如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -23,7 +32,7 @@ tags: [downtime, fix, optimization, update, ]
 
 是拥抱光辉，还是探秘禁忌？一切取决于你对魔咒的选择！
 
-[魔咒稀有度调整]
+<span id='update'>[魔咒稀有度调整]</span>
 
 1、全新稀有度“光辉”“禁忌”即将上线
 
@@ -57,7 +66,7 @@ tags: [downtime, fix, optimization, update, ]
 
 稀有度由“传说”调整为“禁忌”，调整后，获取概率不变。
 
-[“魔咒研习赛”活动开启]
+<span id='description'>[“魔咒研习赛”活动开启]</span>
 
 全新咒语“默默然”、召唤卡“雪人飞来”、伙伴卡“昔日重现-阿不思·邓布利多”限时免费体验，公平模式“魔咒研习赛”再度开启，构建属于你的魔咒组合，去赢得胜利吧！
 

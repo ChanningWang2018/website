@@ -1,15 +1,24 @@
----
-slug: 220713-update-annc
-title: 2022年7月13日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220713-update-annc
+
+title: 2022年7月13日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 为了给大家带来更好的游戏体验，服务器将于7月13日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。
 
 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
@@ -29,7 +38,7 @@ tags: [downtime, fix, optimization, update, ]
 
 新服“黑湖”即将开启，预热活动期间内，全服巫师每日登录游戏，即可领取当日奖励。
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 一、回响调整
 

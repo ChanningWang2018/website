@@ -1,15 +1,24 @@
----
-slug: 220413-update-annc
-title: 2022年4月13日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220413-update-annc
+
+title: 2022年4月13日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的巫师： 为了给大家带来更好的游戏体验，服务器将于4月13日(周三)早上7:00-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。 维护期间将暂时无法进入服务器进行游戏，给各位带来的不便，敬请谅解。感谢各位巫师的支持！
 
 ## 重要更新
@@ -101,7 +110,7 @@ tags: [downtime, fix, optimization, update, ]
 
 活动期间，特邀主播嘉宾将带领大家环游霍格沃茨城堡，领略魔法魅力。点击[主界面→赛事→女巫夺宝夜→观看直播]，即可体验精彩直播！
 
-平衡性调整
+<span id='adjustment'>平衡性调整</span>
 
 魔咒调整
 

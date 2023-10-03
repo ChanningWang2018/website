@@ -1,15 +1,24 @@
----
-slug: 220210-update-annc
-title: 2022年2月10日公告
-tags: [downtime, fix, optimization, update, ]
----
-<details>
-<summary>GPT4锐评</summary>
-
-</details>
-<!--truncate-->
+---
 
-
+slug: 220210-update-annc
+
+title: 2022年2月10日公告
+
+tags: [downtime, fix, optimization, update, ]
+
+---
+
+<details>
+
+<summary>GPT4锐评</summary>
+
+
+
+</details>
+
+<!--truncate-->
+
+
 亲爱的各位巫师：
 
 我们将于02月10日(周四)早上7点进行停服更新，预计维护时间2小时，维护期间将暂时无法进入游戏。给各位带来的不便，敬请谅解。
@@ -39,7 +48,7 @@ tags: [downtime, fix, optimization, update, ]
 
 糖果娱乐赛为双人模式的公平决斗，魔法书等级、魔咒等级、回响品质等将不再影响战斗。巫师们可以邀请自己的好友，或是通过匹配与其他巫师一同作战。请感受甜蜜的轰炸！
 
-[魔咒调整]
+<span id='adjustment'>[魔咒调整]</span>
 
 1、变形咒
 
