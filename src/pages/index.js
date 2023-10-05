@@ -6,7 +6,7 @@ import Layout from '@theme/Layout';
 import ClockComponent from './ClockComponent';
 import FileManagementSystem from './indexFMS';
 import styles from './index.module.css';
-import '@site/src/fonts/slkscr.ttf'
+import '/fonts/slkscr.ttf'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
