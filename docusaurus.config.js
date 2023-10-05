@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Oh My Dear HPMA',
   tagline: 'Data Rescue Services for HPMA',
-  favicon: 'img/owl_favicon.ico',
+  favicon: 'img/px_owl_favicon.ico',
 
   // Set the production url of your site here
   url: 'https://channingwang2018.github.io/',
@@ -68,7 +68,7 @@ const config = {
       navbar: {
         logo: {
           alt: 'Owl Logo',
-          src: 'img/owl.svg',
+          src: 'img/px_owl_favicon.svg',
         },
         items: [
           {

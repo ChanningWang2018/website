@@ -1,6 +1,6 @@
 const avatarDir = "img/pixel_cards"
 
-const avatarStyle = {width: "50px", height: "50px", objectFit: "cover"}
+const avatarStyle = {width: "50px", height: "50px", objectFit: "cover", borderRadius: "5px"}
 
 const avatarBoxStyle = {display: 'flex', flexDirection: 'column', alignItems: 'center'}
 
