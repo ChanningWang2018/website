@@ -24,12 +24,6 @@
 
 @font-face {
   font-family: 'PixelFont';
-  src: url('../../static/fonts/slkscr.ttf') format('truetype'), local('PixelFont');
+  src: url('../../static/fonts/slkscr.woff2') format('woff2'), local('PixelFont');
   font-weight: normal;
-}
-
-@font-face {
-  font-family: 'PixelFont';
-  src: local('PixelFontBold'), url('../../static/fonts/slkscrb.ttf') format('truetype');
-  font-weight: bold;
 }
