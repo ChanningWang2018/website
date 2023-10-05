@@ -7,11 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Oh My Dear HPMA',
-  tagline: 'Data Rescue Services for HPMA',
+  tagline: 'a must-play for anyone who enjoys questioning their life choices.',
   favicon: 'img/px_owl_favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://channingwang2018.github.io/',
+  url: 'https://dear-hpma.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/', // If you are using GitHub pages, you had better change this.
@@ -84,11 +84,11 @@ const config = {
       footer: {
         style: 'dark',
         copyright: `
-        Oh-My-Dear-HPMA is not endorsed by or affiliated with NetEase Games or Warner Bros. Games.${'\n'}
+        Oh-My-Dear-HPMA is not endorsed by or affiliated with NetEase Games or Warner Bros. Games.
         Copyright © ${new Date().getFullYear()} Bourdieu`,
       },
       prism: {
-        theme: darkCodeTheme, // 浅色模式为lightCodeTheme
+        theme: lightCodeTheme, // 浅色模式为lightCodeTheme
         darkTheme: darkCodeTheme,
       },
     }),
