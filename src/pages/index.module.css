@@ -24,12 +24,12 @@
 
 @font-face {
   font-family: 'PixelFont';
-  src: url('@site/static/fonts/slkscr.ttf') format('truetype'), local('PixelFont');
+  src: url('/fonts/slkscrb.ttf') format('truetype'), local('PixelFont');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'PixelFont';
-  src: local('PixelFontBold'), url('@site/static/fonts/slkscrb.ttf') format('truetype');
+  src: local('PixelFontBold'), url('/fonts/slkscrb.ttf') format('truetype');
   font-weight: bold;
 }
