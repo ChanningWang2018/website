@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Oh My Dear HPMA',
-  tagline: 'a must-play for anyone who enjoys questioning their life choices.',
+  tagline: 'a must-play for anyone who enjoys questioning their life choices',
   favicon: 'img/px_owl_favicon.ico',
 
   // Set the production url of your site here
