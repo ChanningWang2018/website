@@ -14,8 +14,6 @@ sidebar_position: 0
 
 Email：standofkinsey@yandex.com
 
-游戏内id：Net Ease
-
 
 ## well, very interesing
 
