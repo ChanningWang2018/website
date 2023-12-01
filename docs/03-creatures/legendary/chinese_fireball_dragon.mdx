@@ -1,0 +1,63 @@
+---
+sidebar_position: 1
+id: chinese_fireball_dragon
+title: 中国火球幼龙
+tags: [summon, legendary, manacost-5, back-row, damage]
+---
+
+Chinese Fireball Dragon 🔥☀🐲
+
+<!--truncate-->
+
+export const id = 101
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+召唤中国火球龙，中国火球幼龙会始终跟随巫师移动。
+
+✧当你或你的队友对敌方单位造成伤害时，中国火球幼龙也会向目标吐出火星，对目标及周围单位造成范围伤害，并累计1点充能。该效果有短暂的冷却时间。
+
+✧当充能达到5点后，中国火球幼龙会飞到空中，对敌方巫师展开1次龙焰强袭，造成大范围高额伤害。随后，中国火球幼龙离场。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+## 故事
+
+中国火球幼龙也称“狮龙”，是一种原产于中国的火龙。中国火球龙能从鼻孔和嘴巴中喷出蘑菇状的火球，因此得名。中国火球龙以其速度和聪明著称，和其他龙相比也较能容忍同类，有些甚至不介意和其他龙一起分享自己的领地。
+
+中国火球龙蛋呈深红色，上有金色斑点，在中国巫术界颇受珍视，因此它们经常成为盗猎者的目标。尽管中国火球幼龙孵化不久后便可以喷出火星，但是只有它们发育成熟后才可以喷出真正的火焰保护自己。在此之前，幼龙主要依靠妈妈的保护。
+
+
+## log
+
+[2023-11-28](/blog/231128-update-annc#fix)修复了“决斗俱乐部”中，中国火球幼龙处于不同阵营时跟随位置有所变化的问题。
+
+
+[2023-11-14](/blog/231114-update-annc#description)详情：
+
+召唤中国火球幼龙入场，幼龙入场后会一直跟随巫师移动。
+
+当巫师或队友对敌方单位造成伤害时，中国火球幼龙会向目标喷吐火焰，对目标及周围单位造成范围伤害，同时增加1点充能。该效果有短暂的冷却时间。
+
+当充能达到5点后，中国火球幼龙会飞向空中，对敌方巫师展开一次龙焰强袭，造成大范围高额伤害。随后中国火球幼龙离场。
+
+在“最佳拍档”模式中，中国火球幼龙生命值提高20%。
+
