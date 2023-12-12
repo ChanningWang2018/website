@@ -41,7 +41,8 @@ const FileManagementSystem = () => {
         {filteredCards.reverse().map((card) => (
           <div key={card.name} style={avatarBoxStyle}> 
             <a href={`${docDir}/${typeMap[card.type]}/${rarityMap[card.rarity]}/${card.name}`}>
-              <img src={`${avatarDir}/${card.name}.png`} style={avatarStyle} onError={handleImgError}  alt={card.name}></img></a>        
+              <img src={`${avatarDir}/${card.name}.png`} style={avatarStyle} onError={handleImgError}  alt={card.name}></img>
+            </a>        
             <div style={avatarNameStyle}>
               <a href={`${docDir}/${typeMap[card.type]}/${rarityMap[card.rarity]}/${card.name}`}>{card.alias}.md</a>
             </div>
