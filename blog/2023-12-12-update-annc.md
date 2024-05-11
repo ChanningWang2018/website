@@ -209,4 +209,4 @@ tags: [hpma, update, fix, optimization, downtime]
 
 由于功能维护，更新后巫师将暂时无法使用烟花功能。功能维护完成时间预计为12月15日，实际恢复时间以游戏内真实情况为准。
 
-https://nga.178.com/read.php?&tid=38663534
+[nga原文](https://nga.178.com/read.php?&tid=38663534)
