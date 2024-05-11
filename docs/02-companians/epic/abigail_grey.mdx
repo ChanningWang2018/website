@@ -1,0 +1,56 @@
+---
+sidebar_position: 1
+id: abigail_grey
+title: 阿比盖尔•格雷 
+tags: [companian, epic, damage]
+---
+
+Abigail Grey 🐺🙎‍♀️
+
+<!--truncate-->
+
+export const id = 104
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+巫师可以选择在自身一定范围内或范围外召唤阿比盖尔协助作战。
+
+当在一定范围内召唤阿比盖尔时，阿比盖尔将以人类形态出战；
+
+当在一定范围外召唤阿比盖尔时，阿比盖尔将以狼人形态出战；
+
+※人类形态的阿比盖尔会对敌方单位施放远程攻击，并将周期性释放速速禁锢攻击敌方单位。（释放的速速禁锢等级与阿比盖尔等级相同）
+
+※狼人阿比盖尔被召唤时会出现在巫师身边，移动至目标附近后飞扑向目标点，在落地后造成圆形范围伤害，并标记范围内1名敌方单位，使该单位获得易伤效果；
+飞扑结束后，狼人阿比盖尔将会对最近的敌方单位进行连续4次利爪攻击，并造成扇形伤害，攻击结束后，狼人阿比盖尔将作为近战单位对敌方进行攻击。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+## 故事
+
+阿比盖尔·格雷是一位具有正义感的天生领袖。面对不公时她总能挺身而出，用她的口才和人格魅力为弱者发声，哪怕这会让自己陷入麻烦。阿比盖尔虽然有些生人勿近，但对自己在乎的人极为忠诚。
+
+阿比盖尔九岁时因为在满月之夜跟踪身为狼人的父亲而被咬伤。她的父亲出于悔恨和对家人的保护选择离家出走。意外发生后，阿比盖尔曾一度惧怕自己的父亲，但在体验了身为狼人的艰辛后，阿比盖尔逐渐成长，最终原谅了父亲、也对他做出的决定心生敬意。现在，阿比盖尔一心想要和家人团聚。
+
+
+## log
+
+[2024-5-1](/blog/240424-update-annc#introduction)上新
