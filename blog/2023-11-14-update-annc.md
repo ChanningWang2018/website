@@ -164,4 +164,4 @@ tags: [hpma, update, fix, optimization, downtime]
 
 2、修复电脑端中舞会按键消失的问题。
 
-https://nga.178.com/read.php?&tid=38385213
+[nga原文](https://nga.178.com/read.php?&tid=38385213)

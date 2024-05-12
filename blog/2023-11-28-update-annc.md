@@ -106,4 +106,4 @@ tags: [hpma, update, fix, optimization, downtime]
 
 1、修复了“决斗俱乐部”中，中国火球幼龙处于不同阵营时跟随位置有所变化的问题。
 
-https://nga.178.com/read.php?&tid=38523805
+[nga原文](https://nga.178.com/read.php?&tid=38523805)

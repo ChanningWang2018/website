@@ -1,0 +1,47 @@
+---
+sidebar_position: 3
+id: crystal_ball
+title: 预言水晶球
+tags: [spell, epic, manacost-4, damage]
+---
+
+Crystal Ball 🔮
+
+<!--truncate-->
+
+export const id = 103
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+使用该咒语后，召唤3颗水晶球，并将后续3次普攻替换为投掷水晶球，投掷水晶球被视为普攻伤害。投掷的水晶球无视距离，会优先选择敌方最近的巫师单位。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+## 故事
+
+水晶球一直被用于神秘的占卜艺术。通过凝视它们朦胧的深处，先知们可以目睹未来，预测灾难，并可以通过占卜来避免灾祸。然而，培养“天目”非常困难，许多学生都无法成功掌握。
+
+特里劳尼教授曾发现过水晶球的另一种妙用，在霍格沃茨大战中，她把它丢到了狼人芬里尔·格雷伯克的头上，并成功击昏了他。虽然这种攻击方式很有效，但并不建议学生们这么对待他们的占卜工具。
+
+## log
+
+[2024-5-1](/blog/240424-update-annc#introduction)上新
+

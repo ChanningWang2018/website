@@ -176,4 +176,4 @@ tags: [hpma, update, optimization, downtime]
 
 3、优化了决斗中快捷短语的内容。
 
-https://nga.178.com/read.php?&tid=38209197
+[nga原文](https://nga.178.com/read.php?&tid=38209197)

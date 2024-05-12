@@ -1,0 +1,52 @@
+---
+sidebar_position: 5
+id: yeti
+title: 雪怪
+tags: [spell, common, manacost-5, bonus]
+---
+
+Yeti ❄🦍
+
+<!--truncate-->
+
+export const id = 105
+
+import CardBasics from "/src/components/CardInfo/CardBasics"
+
+<CardBasics cardKey={id}/>
+
+
+## 描述
+
+雪怪每次登场时都会对落点位置造成范围伤害。
+
+在战斗中，雪怪的体型逐渐变小，攻速、移速和承伤变高，攻击力变低，直到最小体型。
+
+雪怪第一次被击败时，如果未处于最小体型，则在一段时间后以最小体型重新登场，血量降低。
+
+## 面板
+
+import LevelComponent from "/src/components/CardInfo/LevelComponent"
+
+<LevelComponent/>
+
+import {CardDynamicTable} from "/src/components/CardInfo/CardTable"
+
+<CardDynamicTable cardKey={id}/>
+
+import {CardComplexTable} from "/src/components/CardInfo/CardTable"
+
+<CardComplexTable cardKey={id}/>
+
+
+
+## 故事
+
+雪怪也称大脚怪和喜马拉雅雪人，是喜马拉雅本土的人形魔法生物。它身长可达15英尺，全身被白毛覆盖，被认为和巨怪存在某种关联。雪怪会吞噬碰到的任何东西，但由于怕火，可用火驱赶。
+
+雪人是魔法世界保守最糟糕的秘密之一，麻瓜目击事件频繁发生。由于喜马拉雅地区经常违反《保密法》第73款，国际巫师联合会只得永久性派驻一支国际别动队，协助控制局面。
+
+## log
+
+[2024-5-1](/blog/240424-update-annc#introduction)上新
+
